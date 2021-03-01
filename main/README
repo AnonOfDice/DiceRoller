@@ -1,0 +1,199 @@
+CUSTOM DICE ROLLER - by Anon
+
+0) THIS PROGRAM
+This is a simple terminal program designed to manage and roll custom dice. It has three main functions
+-Manage and roll custom dice: import custom dice from file, and roll them using commands
+-Special rolls: the program also allows you to roll a dX, risk-style checks vs an opponent, with Degree of Success, and best-of-dicepool vs opponent or DC, also with Degree of Success. Consult the command section for the syntax
+-Manage and roll custom rollers: import files that automate the rolling of multiple dice, custom or inbuilt, and provide printf-style formatting.
+-Save your favourite list of custom dice+custom rollers for easy access. Also support # wildcard to insert seeds into the generator.
+
+The only downside of this program is that you have to build dice and custom roll by yourself. The good news is that such files are simple plain text, and you can edit them while the program is running and reload them until you're satisfied. NOTE: if you delete a die, all rollers currently loaded in ram will also be deleted.
+
+The program comes bundled with a list of collected random generators.
+
+Use this program at your own risk. I make no promises, implicit or explicit, about it working as intended, or doing anything at all, and will not be held responsible for damages to your other software or hardware, or for any consequences arising from its usage.
+
+Use this program any way you want! This program was made for YOU!
+
+WARNING: if you build this program by yourself, make sure to put in the program's folder the "res" subfolder. Alternatively you can create them by hand:
+res			<----- a folder in the same path as the program
+res/saves		<----- the saved dice end up here
+res/saves_R		<----- the saved rollers end up here
+res/dice		<----- dicefile are looked for in here
+res/rollers		<----- rollerfile are looked for in here
+res/pictures		<----- the pictures are looked for in here
+
+
+
+1) BUILDING A CUSTOM DICEFILE
+A dicefile is a plain text file with special formatting, that will be read as a series of dice by the program. You can have any number of dicefile at the same time in your res/dice folder, and load them to RAM separately using commands.
+Write your die to your dicefile using the following format (separate each line by a newline):
+    -1st line of the die will be read as the die's name
+    	NOTICE: dice names created this way must contain no spaces. use underscores
+    -all following lines will be read as one custom face of the die
+    -a line that contains the character $ will be ignored, and will mark the end of the current die
+    -close the file by placing an additional $ (like this: $$)
+
+EXAMPLE (copying and pasting the following lines up to $$ will make a properly formatted dicelist)
+    d4
+    1
+    2
+    3
+    4
+    $
+    variables
+    x
+    y
+    z
+    $$
+will result in one die called "d4" with 4 faces 1->4, and one die called "variables" with faces x,y,z
+NOTE: you don't need to write a diefile for normal N-sided dice, the program provides a command to do that.
+
+
+2) BUILDING A CUSTOM ROLLER
+You can build a file that automates the rolling of multiple dice. Separate different commands by a newline
+
+	-the first line will be read as the title of the custom roller. please follow the dicename guidelines
+for every following lines you have these options
+    	-ROLL A DIE: enter a valid roll command. Consult the commands section for more information
+		NOTE: make sure the dicename is correct and present in your dicelist at the time of loading, or it will be rejected.
+		>>>: you can correct the dicename while the program is running and try loading it again
+		NOTE: if the line is recognized as a valid roll, it will be shown with special formatting when you type "showdie [custom roller number]"
+		>>>: if it doesn't, it means that the syntax of the roll was wrong; check the help for details
+    	-TEXT LINE: type any text you wish to be shown on screen
+		NOTE: it follows printf format: the two characters '\n' will be printed as a newline
+    	-end the custom roller with a '$' line, end the file with '$$'
+
+In any of the lines you can put any number of #, which will be substituted with the value of the seed at runtime; # must be 1 digit
+
+So the file
+
+MYNAME
+The result with seed # is (
+roll d# 4 0 0
+_
+sroll d6 # 0 0
+)!\n Thanks for playing!
+$
+
+generates the custom roller "MYNAME" that once rolled results in:
+
+The result with seed # is (N1 N2 N3 N4_M)!
+ Thanks for playing!
+
+where N1,N2,N3,N4 are the 4 results of 4d# and M is the sum of #d6; if your seed was 3, "3" would substitute the "#" in the first line, and 4 times 1d3 and the sum of 3d6 would be rolled
+beware that the program does not accept negative numbers as number of dice to throw or number of faces of die
+beware also that contested, uncontested and clashes have their own formatting when rolled. Please account for that when formatting your text
+as usual, you can edit your roller file, delete it from the list and load it again to fix it
+
+
+3) CUSTOM PICTURES
+You can put your own pictures in the res/pictures subfolder. The program supports a maximum of 999 pictures, and they will be rendered stretched in 40x40 size.
+
+
+4) COMMAND PARSER
+When ">" is shown on screen, the program is ready to accept you input.
+Currently supported commands and their syntax are as follow
+
+-SHOW COMMANDS
+e(x)it: exits the program
+(h)elp: shows the list of commands
+(s)how: shows the dicelist; it's the same in the main screen of the program.
+(s)how X: shows all of the faces of die X
+(crs)show: shows the list of custom roller; it's the same in the main screen of the program.
+(crs)show X: shows all of the entries of the custom roller X; newlines will be replaced by a special character, valid rolls receive special formatting
+stoggle: toggle the visibility of the dice list
+
+-LIST MANIPULATION COMMANDS
+(m)ove X Y: move the Xth die so that it occupies the Yth position
+(crm)ove X Y: move the Xth custom roller so that it occupies the Yth position
+(del)ete X: deletes the Xth die from the list, no confirmation prompt
+(crdel)ete X: deletes the Xth custom roller from the list, no confirmation prompt
+(res)et: deletes the current dicelist and all of the rollers
+
+-LOADING LISTS COMMANDS
+save: save your current dielist and rollerlist to "master"files (in the folder "saves" and "saves_R"); you will be prompted to select a filename.
+(ml)oad: resets the lists and shows a list of currently saved masterfiles to load. associated custom roller masterlist will be loaded as well
+(ol)oad: deletes the current list and its rollers and loads the dicefile selected file (prompt will be shown) from the "res/dice" folder
+(l)oad: appends the selected dicefile (prompt will be shown) from the "res/dice" folder
+(crl)oad: appends COMPATIBLE ROLLERS from the selected roller tile (prompt will be shown) from the "res/rollers" folder
+
+-ROLL COMMANDS
+(r)oll X Y[=1] [A] [B]: roll die X for Y times, adding A to each roll, and with B boons/banes dice (if positive/negative) [Boon: roll two, take higher]
+(r)oll dX Y[=1] [A] [B]: roll a X-sided die for Y times, adding A to each roll, and with B boons/banes dice (if positive/negative)
+(sr)oll dX Y[=1] [A] [B]: like the above command, but the sum of the dice will be shown
+(cr)oll X [Y=0]: roll custom roller X with seed Y
+u(ncon)tested A MA DC: checks best of A d6+MA vs static DC; gives Degree of Success as a result (also accepts "uncon" as a shortcut)
+(con)tested A MA D MD: checks the best of A d6+MA vs the best D d6+MD; gives Degree of Success as a result
+(cl)ash A MA D MD: checks each of A d6+MA vs each of D d6+MD, giving DoS results. If A and D are unmatched, the "missing" dice will roll a 0
+pix X[=3]: generates from 1 to 10 pictures taken from the res/pictures folder; folder can contain a maximum of 999 pictures
+(p)revious, or [return key]: repeats the last roll command
+
+
+
+5) FAQ
+
+Q: Why?
+A: I wanted to collect a bunch of random generators in one place, and to access them without requiring an internet connection. Also I wanted a generator for ERP games without the need to put all of my stuff on the internet.
+
+Q: No, I mean, why is the code such an amateurish mess
+A: I am an amateur coder. Please be understanding.
+
+Q: Do you accept criticism?
+A: Yes. Please be explicit with your suggestion, and if you can link to a resource where I can read up on it myself.
+
+Q: Will you provide updates?
+A: If something is broken I can try to fix it, and if I am suggested a feature or an improvement I will try and add it, but I don't guarantee anything. On the upside, the source code is yours to do anything you want with.
+
+Q: Can I use your code or parts of it?
+A: Why. I mean, yes, but. Part of the reason I did this is to learn coding while doing something fun. If you *need* parts of this code, you're probably better of doing it yourself.
+But yes, you can take what you want. No need to credit anything.
+
+Q: Can I edit/redistribute this program?
+A: The copy of the program (or the sourcecode, if you'd rather build it yourself) is yours to do anything you want. If you do modify it, you can even distribute this help file with it, but please put in clear letters how your version differs from mine, and make it absolutely clear it's not the original version. I mean, it's probably in your best interest.
+
+Q: I want to thank you/curse you in some way!
+Your enjoyment of this program is the only "thank you" I need. If this subpar and messy program has made your RPG experience even a little bit better, that's all I can ask for, really.
+If instead through this software I managed to frustrate or annoy you, please believe it wasn't done on purpose.
+
+5) CREDITS
+
+Provided icons made by these people
+
+- Lorc, http://lorcblog.blogspot.com
+- Delapouite, https://delapouite.com
+- John Colburn, http://ninmunanmu.com
+- Felbrigg, http://blackdogofdoom.blogspot.co.uk
+- John Redman, http://www.uniquedicetowers.com
+- Carl Olsen, https://twitter.com/unstoppableCarl
+- Sbed, http://opengameart.org/content/95-game-icons
+- PriorBlue
+- Willdabeast, http://wjbstories.blogspot.com
+- Viscious Speed, http://viscious-speed.deviantart.com - CC0
+- Lord Berandas, http://berandas.deviantart.com
+- Irongamer, http://ecesisllc.wix.com/home
+- HeavenlyDog, http://www.gnomosygoblins.blogspot.com
+- Lucas
+- Faithtoken, http://fungustoken.deviantart.com
+- Skoll
+- Andy Meneely, http://www.se.rit.edu/~andy/
+- Cathelineau
+- Kier Heyl
+- Aussiesim
+- Sparker, http://citizenparker.com
+- Zeromancer - CC0
+- Rihlsul
+- Quoting
+- Guard13007, https://guard13007.com
+- DarkZaitzev, http://darkzaitzev.deviantart.com
+- SpencerDub
+- GeneralAce135
+- Zajkonur
+- Catsu
+- Starseeker
+- Pepijn Poolman
+- Pierre Leducq
+
+This program requires SDL2 and SDL2 Image. You can find both at https://www.libsdl.org/download-2.0.php 
+The makefile has been generated with the cbp2make tool (https://github.com/dmpas/cbp2make). 
+

@@ -1,0 +1,1161 @@
+CHARACTER_FOCUS
+Fame
+Backstory
+Rivalry
+Wealth
+Romance
+Item
+Knowledge
+Sex
+Dominate
+Magick
+Explore
+Crush Foe
+Do Good
+Conflict
+Uplift Ally
+Mayhem
+Prove Self
+Infamy
+$
+PERSONALITY
+Chatty
+Asocial
+Gambler
+Needy
+Smart
+Creative
+Ruthless
+Blunt
+Greedy
+Asexual
+Clumsy
+Dramatic
+Casual
+Timid
+Turtle
+Curious
+Flaky
+Thespian
+Cheerful
+Rigid
+Methodical
+Bully
+Restless
+Trouble
+Indecisive
+Invested
+Whimsical
+Lecherous
+Flamboyant
+Leader
+Assertive
+Argumentative
+Mercurial
+Peacemaker
+Charismatic
+Forgetful
+Demanding
+Kind
+Sensible
+Hoarder
+Attentive
+Empathetic
+Stubborn
+Romantic
+Free
+Spendthrift
+Precise
+Chummy
+Dedicated
+Puns
+Flighty
+Fighter
+Inattentive
+Vengeful
+Determined
+Callous
+Depressed
+Daredevil
+Democratic
+Arrogant
+Avaricious
+Manic
+Careless
+Sensitive
+Competitive
+Conventional
+Quixotic
+Careful
+Amoral
+$
+EVENT_FOCUS
+Remote Event
+NPC Action
+Introduce new NPC
+Move towards a thread
+Move away from a thread
+Close a thread
+PC negative
+PC positive
+Ambiguous event
+NPC negative
+NPC positive
+$
+EVENT_MEANING:_ACTION
+Attain
+Start
+Neglect
+Fight
+Recruit
+Triumph
+Violate
+Oppose
+Malice
+Communicate
+Persecute
+Increase
+Decrease
+Abandon
+Gratify
+Inquire
+Antagonize
+Move
+Waste
+Truce
+Release
+Befriend
+Judge
+Desert
+Dominate
+Procrastinate
+Praisee
+Separate
+Take
+Break
+Heal
+Delay
+Stop
+Lie
+Return
+Imitate
+Struggle
+Inform
+Bestow
+Postpone
+Expose
+Haggle
+Imprison
+Release
+Celebrate
+Develop
+Travel
+Block
+Harm
+Debase
+Overindulge
+Adjourn
+Adversity
+Kill
+Disrupt
+Usurp
+Create
+Betray
+Agree
+Abuse
+Oppress
+Inspect
+Ambush
+Spy
+Attach
+Carry
+Open
+Carelessness
+Ruin
+Extravagance
+Trick
+Arrive
+Propose
+Divide
+Refuse
+Mistrust
+Deceive
+Cruelty
+Intolerance
+Trust
+Excitement
+Activity
+Assist
+Care
+Negligence
+Passion
+Work Hard
+Control
+Attract
+Failure
+Pursue
+Vengeance
+Proceedings
+Dispute
+Punish
+Guide
+Transform
+Overthrow
+Oppress
+Change
+$
+EVENT_MEANING:_SUBJECT
+Goals
+Dreams
+Environment
+Outside
+Inside
+Reality
+Allies
+Enemies
+Evil
+Good
+Emotions
+Opposition
+War
+Peace
+The innocent
+Love
+The Spiritual
+The Intellectual
+New Ideas
+Joy
+Messages
+Energy
+Balance
+Tension
+Friendship
+The Physical
+A Project
+Pleasures
+Pain
+Possessions
+Benefits
+Plans
+Lies
+Expectations
+Legal Matters
+Bureaucracy
+Buisness
+A Path
+News
+Exterior Factors
+Advice
+A Plot
+Competition
+Prison
+Illness
+Food
+Attention
+Success
+Failure
+Travel
+Jealousy
+Dispute
+Home
+Investment
+Suffering
+Wishes
+Tactics
+Stalemate
+Randomness
+Misfortune
+Death
+Disruption
+Power
+A Burden
+Intrigues
+Fears
+Ambush
+Rumor
+Wounds
+Extravagane
+A Representative
+Adversities
+Opulence
+Liberty
+Military
+The Mundane
+Trials
+Masses
+Vehicle
+Art
+Victory
+Dispute
+Riches
+Status Quo
+Technology
+Hope
+Magick
+Illusions
+Portals
+Danger
+Weapons
+Animals
+Weather
+Elements
+Nature
+The Public
+Leadership
+Fame
+Anger
+Information
+$
+SCENEGEN_1:_HELPFUL
+Hindering: major/and...
+Hindering
+Hindering: minor/but...
+Neutral
+Beneficial: minor/but...
+Beneficial
+Beneficial: major/and...
+$
+SCENEGEN_2:_COLOR_THEME
+Wind/White: Speed
+Wind/White: Mind
+Wind/White: Persuade
+Wind/White: Purity
+Wind/White: Honour
+Earth/Green: Wild
+Earth/Green: Power
+Earth/Green: Spirit
+Earth/Green: Heal
+Earth/Green: Poison
+Fire/Red: Blood
+Fire/Red: Freedom
+Fire/Red: Aggression
+Fire/Red: Passion
+Fire/Red: Heart
+Water/Blue: Calm
+Water/Blue: Cold
+Water/Blue: Intuition
+Water/Blue: Sadness
+Water/Blue: Deceit
+Light/Yellow: Joy
+Light/Yellow: Gift
+Light/Yellow: Wealth
+Light/Yellow: Luck
+Light/Yellow: Virtue
+Dark/Black: Death
+Dark/Black: Threat
+Dark/Black: Loss
+Dark/Black: Barrier
+Dark/Black: Mystery
+$
+TACTICS:_THIS_ROUND
+Same Tactic
+Same Tactic
+Same Tactic
+New Tactic
+New Tactic
+Add Twist
+$
+TACTICS:_THE_LIST_(add Aggression to roll) 
+Panic
+Surrender
+Surrender
+Disengage
+Disengage
+Disengage
+Retreat
+Retreat
+Retreat
+Retreat
+Guard
+Guard
+Guard
+Guard
+Guard
+Probe
+Probe
+Probe
+Probe
+Probe
+Probe
+Wear Down
+Wear Down
+Wear Down
+Wear Down
+Wear Down
+Wear Down
+Wear Down
+Standoff
+Standoff
+Standoff
+Standoff
+Standoff
+Standoff
+Standoff
+Standoff
+Balance
+Balance
+Balance
+Balance
+Balance
+Balance
+Balance
+Balance
+Feint
+Feint
+Feint
+Feint
+Feint
+Feint
+Feint
+Reverse
+Reverse
+Reverse
+Reverse
+Reverse
+Reverse
+Taunt
+Taunt
+Taunt
+Taunt
+Taunt
+Press
+Press
+Press
+Press
+Strike
+Strike
+Strike
+Charge
+Charge
+Frenzy
+$
+TACTICS:_TWIST
+Reinforce
+Change
+Disadvantage Enemy
+Advantage Self
+Bargain
+Trick
+$
+RANDOM_EVENT
+The PC's find money or valuables left in the road. 	
+Quicksand, sinkhole, or other natural ground hazard 	
+An eclipse occurs, a comet flies past, or other astronomical event. 	
+Pass a roadside grave or the site of a past execution 	
+Pass the ruins of an old outpost or small tower, still 75% intact. 	
+Need to get a haircut/bath/clothes patched	
+Beautiful scene, such as waterfall or breathtaking view 	
+Toll station 	
+Someone has an allergic reaction to something in the area. 	
+It just really feels like today was a lot shorter/longer than a normal day. 	
+Mosquito swarm 	
+Minor earthquake, small avalanche, or freak storm 	
+Horse has a leg cramp, needs hour-long rubdown to continue. 	
+Pass a small shrine or holy grotto 	
+Road kill: local animal dead in the road, natural causes, scavengers nearby 	
+Thick fog or dust storm blows in 	
+Discover one of the horses is pregnant or ill 	
+The PC's have lost some very minor item, such as soap, a pot, or chalk. 	
+Find evidence of recent combat, possibly including decaying bodies. 	
+Find a fully ripe fruit tree or other easy food source 	
+Stumble into Poison Ivy (just for kicks, dwarves are immune) 	
+Minor piece of equipment is nearly worn out & should be replaced ASAP. 	
+PC has digestion problems (fill in your own details) 	
+Beautiful secluded beach and possibly a warm swim 	
+Hidden compartment. 	
+PC finds a hidden detail in recently acquired or purchased item... 	
+Strangely shaped clouds seen on the horizon 	
+Find strange trash in the road, such as a wagon wheel or a chest of clothing 	
+A PC realizes they are gaining/losing weight. 	
+A PC gets a toothache, an earache, or a stomachache. 	
+Food forgotten at bottom of pack goes bad and smells horrible 	
+Black cat crosses path, or other unlucky omen 	
+Break a wagon wheel or a horse throws a shoe 	
+Rainbow spotted or other lucky omen 	
+PC's must cross a rickety old bridge or ford a wide stream. 	
+Wild, non-dangerous animal approaches closer for an inspection 	
+Snowball fight or terrain/weather equivalent 	
+Stumble into a blessed glade. 	
+Run across wild young. 	
+Spot a herd of wild horses. 	
+Spot a herd of deer or other food on the hoof. 	
+Raccoons invade camp (steal/ruin items and rations) 	
+Find a hive. 	
+They camped on/near a fire ant colony. 	
+Bridge washed out/ river flooding. 	
+Find an old marker/sign. 	
+Come across a way haven on the path. 	
+Find an empty cave. 	
+Run into local 'recruiters'. 	
+Find an animal in a trap. 	
+Good day
+Bad day
+Lumberjacks. 	
+Shepherd and his flock. 	
+Animal tracks or droppings. 	
+Lost child who wandered too far from home/village or someone's lost pet. 	
+Site of recent natural disaster: flood, forest fire, lightning strike, etc. 	
+Come across other travelers suffering from some problem. (Broken wagon, injured horse, etc.)
+Extremely windy day. Light gear becomes difficult to keep strapped down. 	
+Unusually warm/cold day for season or brutally cold/hot day in accordance with season.
+$
+HARROW_DECK
+The Paladin (LG, Strenght; standing resolutely against trouble, without backing down)
+The Keep (NG, Strenght; quiet, unshakeable strength that withstands any hardship)
+The Big Sky (CG, Strenght; momentous change, as when all the slaves of a nation are emancipated)
+The Forge (LN, Strenght; strength through diversity, or strength from many sources united against a single trial)
+The Bear (NN, Strenght; pure strength that cannot be truly tamed or trained)
+The Uprising (CN, Strenght; overwhelming strength that catches the subject up in something much more powerful)
+The Fiend (LE, Strenght; devil that devours the masses of the innocent, and can represent the deaths of many in a disaster)
+The Beating (NE, Strenght;  assault from all quarters, or the mental dissolution of the self)
+The Cyclone (CE, Strenght; unstoppable, destructive force unleashed through the plots of intelligent creatures)
+The Dance (LG, Dexterity; a complicated framework that requires the cooperation of all to avoid collapse)
+The Cricket (NG, Dexterity; grig, quick travel, and the reward at the end of a journey)
+The Juggler (CG, Dexterity; destiny, deities, and those who play with the fates of others)
+The Locksmith (LN, Dexterity; keys the subject needs to unlock his fate. The card grants the tools needed to unlock some new place, puzzle, or hoard)
+The Peacock (NN, Dexterity; a great beauty that can only be preserved if petrified and frozen in time for eternity, as by a cockatrice's glare)
+The Rabbit Prince (CN, Dexterity; the quiky vicissitudes of melee combat. The Rabbit Prince is the personification of the capriciousness of battle, and his broken sword indicates that defeat may come to anyone. The card sometimes represents younger members of royal or noble houses)
+The Avalanche (LE, Dexterity; disaster: an unthinking panic and destruction that overruns all)
+The Crows (NE, Dexterity; murder, theft, and the violent loss of that which is loved)
+The Demon's Lantern (CE, Dexterity; an impossible situation of traps, mind tricks, and sleight of hand)
+The Trumpet (LG, Constitution; an archon who dives aggressively and righteously into danger)
+The Survivor (NG, Constitution; a creature that has managed to survive a terrible ordeal, when everyone thought him lost)
+The Desert (CG, Constitution; an environment too difficult for anyone to survive without help. The sphinx may represent a source of salvation from plague)
+The Brass Dwarf (LN, Constitution; represents a creature invulnerable to a current threat)
+The Teamster (NN, Constitution; external force that drives the subject on)
+The Mountain Man (CN, Constitution; represents an encounter with a physical power outside of the subject's control)
+The Tangled Briar (LE, Constitution; a historical thing or creature that will have some influence on the question)
+The Sickness (NE, Constitution; corruption, famine, plague, pestilence, and disease)
+The Waxworks (CE, Constitution; a place of torture, imprisonment, helplessness, and paralysis)
+The Hidden Truth (LG, Intelligence; discovery of the greater truth within)
+The Wanderer (NG, Intelligence; a centaur collector who appreciates things others discard as junk)
+The Joke (CG, Intelligence; a monster that can only be defeated through trickery, or the value of humor in circumventing difficult people)
+The Inquisitor (LN, Intelligence; an immutable object that cannot be deceived or influenced)
+The Foreign Trader (NN, Intelligence; spies, merchants, and those who truck in information)
+The Vision (CN, Intelligence; esoteric and arcane knowledge, or madness)
+The Rakshasa (LE, Intelligence; domination, mental control, and slavery)
+The Idiot (NE, Intelligence;  folly, greed, blackmail, bribery, or hubris)
+The Snakebite (CE, Intelligence; poison, venom, assassination, and discord)
+The Winged Serpent (LG, Wisdom; the couatl, the bridge of understanding between the towers of knowledge and judgement)
+The Midwife (NG, Wisdom; the enabler or conduit of new creation, information, or arrivals)
+The Publican (CG, Wisdom; fellowship and refuge. The cyclops is a seemingly inconsequential figure who nonetheless has relevant insight)
+The Queen Mother (LN, Wisdom; the personification of knowledge, who is fond of the powerless, the underclass, and those who will show her obeisance)
+The Owl (NN, Wisdom; harsh wisdom of the natural order. The owl holds a needle that can bind life together or pick it apart)
+The Carnival (CN, Wisdom; illusions and false dreams)
+The Eclipse (LE, Wisdom;  loss of faith and purpose, and the subject's doubt about his abilities or prospects)
+The Mute Hag (NE, Wisdom; the insightful hag, a purveyor of blood pacts, treacherous secrets, and discord)
+The Lost (CE, Wisdom; The bodak represents the permanently insane, lost among lunatics and psychopaths in insane asylums. It is a card of emptiness)
+The Empty Throne (LG, Charisma; those who are gone, or a ghost of the past that has taught important lessons)
+The Theater (NG, Charisma;  prophecy, with a true prophet acting a part as the puppet of the gods)
+The Unicorn (CG, Charisma; one who generously offers up that which is sought)
+The Marriage (LN, Charisma; union of peoples, ideas, or kingdoms that might be as productive or as ruinous as the bonding of a salamander and a water weird)
+The Twin (NN, Charisma; The doppelganger represents duality of purpose or identity, or indecision and fence-sitting for the subject or the entire spread)
+The Courtesan (CN, Charisma; political intrigue and the superficiality of social niceties)
+The Tyrant (LE, Charisma; represents a ruler who harms those he rules)
+The Betrayal (NE, Charisma; selfishness and envy)
+The Liar (CE, Charisma; destructive, treacherous love. The lamia signals obsession, star-crossed lovers, or unrequited desire)
+$
+ADVENTURE_IDEAS
+A young child begins to manifest mage powers and is causing havoc.
+A couple forbidden to be together runs off to a dangerous ruin.
+The heroes must protect a noble from an assassin.
+A tinkerer is selling dangerous arcane artifacts to unsuspecting buyers.
+The popular new parties thrown by a noble are attracting the wrong type of attention.
+A Blood Mage cult is abducting people to use for blood magic sacrifices.
+Strange lights and sounds come from an old elven ruin.
+A dying miner claims to have found a mother lode of lyreum.
+A cursed item passes from hand to hand, corrupting those it touches.
+A demon possesses a living person to fulfill an ancient obligation made with a person no longer alive.
+Envoys are assigned to escort visiting ambassadors or representatives from nearby Banns.
+A friend of the heroes asks for help in settling a duel of honor.
+A respected noble is accused of serious crimes; is it a frame-up?
+The body of a respected Avvar or Chasind chief must be escorted to his homelands in honor.
+Intrigue abounds at a seasonal festival.
+An encounter with an ancient arcane item alters the heroes in some way until they can find a cure.
+The heroes dream about a previous Age. Are they reliving past lives?
+There are rumors of a Tevinter Magister still existing as a spectre.
+A mysterious killer stalks the nighttime streets of a city.
+Two port towns dispute over the ownership of a sunken vessel.
+The 'secret ingredient' of a fad food comes from the Korcari Wilds.
+A child or family is lost in the wilderness and is in need of rescue.
+Two embattled Teyrns are planning secret raids on a dwarven shipment of gold to the King.
+Darkspawn are gathering, but why?
+An ancient dwarven gate opens and disgorges darkspawn or other creatures.
+A new prophet rises up in Orlais, sensing the threat of a Blight growing in Ferelden.
+The Dalish call for aid against the werewolves invading their hunting grounds.
+Blight wolves and blight bears emerge from the wilderness to attack outlying towns.
+A young man begs the heroes to help stop a wedding because he is in love with the bride.
+Thieves steal the royal seal from the palace.
+Strangely intelligent darkspawn begin organizing into a mercenary company, working for the highest bidder.
+Pirates attack merchant vessels along the coast.
+A map to a lost artifact falls into the heroes' hands.
+Apostates organize into a coven and begin sowing dissent and misery in outlying farms and villages.
+A demon preys on dreams, twisting them into nightmares.
+A lost storehouse of ancient lore is guarded by possessed corpses.
+A terrible storm wracks the coast and islands. Locals believe it to be magical.
+Chasind barbarians, led by an apostate mage, raid coastal settlements.
+A wronged noble needs a champion to fight in a duel of honor.
+A child missing for years is seen running through the woods late one night.
+A quake in the Korcari Wilds reveals the ancient ruins of a Tevinter Mage's stronghold.
+The Chantry asks the heroes to aid in smuggling missionaries out of the Korcari Wilds or Avvar Tribal Lands.
+The heroes must guard a carvan through dangerous territory.
+The Chantry threatens to execute a well-known friend, claiming that he or she is an apostate.
+Accusations of corruption mar a deceased noble's memorial service.
+Animals mysteriously attack the local chantry, driven by an ancient artifact kept among its relics.
+A harsh winter leads to conflict between the Dalish and Chasind tribes.
+Everyone in an isolated village has disappeared without a trace.
+A fellen and dying hero seeks aid in achieving a measure of redemption and peace.
+A daring thief steals from the wealthiest people of a city.
+The planned site of a new settlement is plagued by darkspawn or worse.
+Fereldans and a tribal community (Avvar, Dalish, or Chasind) dispute the clearing of some forest land.
+Members of a powerful Tevinter or Dwarven merchant's family are targeted for assassination.
+The king of Ferelden must move the court to a distant city for a time.
+The heroes are assigned as the escort of a troublesome noble.
+Miners in the mountains uncover a lost Thaig.
+Tal'Vashoth raiders strike at outlying farms and villages, taking people to sell as slaves.
+An apostate begins working with demon possessed corpses in the Korcari Wilds.
+A Blood Mage cult hunts rare creatures to obtain strange arcane powers.
+Rumors arise of a corrupt gryphon in the Brecilian forest.
+The politics of the Circle Tower spill out into the most recent Landsmeet. Circle Mages demand appropriate representation.
+A follower of Andraste begins to whip up fervor against all magic, calling for an Exalted March to destroy the Circle Tower and more.
+An ancient dwarven golem is accidentally awakened.
+A region of the kingdom is struck by plague. The cure lies in distant lands.
+A young mage begins having visions of the future, which to date have always come true!
+The Orlesians plan another invasion of Ferelden.
+Foreign agents kidnap a noble's child to force cooperation.
+A seemingly idyllic village is a front for a potent Blood Mage, who enforces peace and justice through magic.
+The barbarian and tribal peoples of Ferelden contemplate war.
+Relics are stolen from a chantry.
+A Blood Mage or Apostate uses magic to grant unearthly beauty to any willing to pay for it.
+Mabari kennels are plagued by attacks from horrible creatures normally found in the Deep Roads.
+The son or daughter of a visiting foreign dignitary falls in love with a young knight in Denerim.
+The heirs of two feuding noble families wish to marry despite their families' wishes.
+A noble is poisoned in an assassination attempt, and the heroes must rush to find a cure in time.
+The heroes must enter the Fade to overcome a powerful demon's curse.
+Mages throughout the realm dream of someone calling for help from a distant land.
+A town suffering a blight claims they were cursed by the Dalish.
+A fire tears through a forest sacred to the Dalish (or other tribal community).
+A young city elf runs off to join the Dalish, but her parents insist she returns.
+The heroes awaken the morning after a seasonal festival with no memory of the previous three days.
+A mysterious performer, the toast of the theater, may be an Orlesian or Tevinter spy.
+A rejected squire seeks to prove himself worthy of knighthood.
+A contact claims to have information, then turns up dead.
+All of the children of a small community are altered or disappeared by darkspawn magic.
+A fiery Fereldan Noble agitates for a preemptive war against the Orlesian Empire to overthrow the usurper and liberate the people.
+A scholar asks for aid in exploring ancient ruins.
+A noblewoman's journal or love letters fall into the wrong hands.
+The heroes are asked to help break off an adulterous affair without the wronged spouse finding out.
+A few chantries in Ferelden have fallen under the sway of the Orlesian Chantry, attracting radical power-seekers.
+Avvar or Chasind raiders attack Fereldan settlers who inadvertently trespassed onto sacred ground.
+An intelligent darkspawn offers to establish a non-agression treaty on behalf of the Archdemon.
+A noble attempts a coup to become king of Ferelden.
+A girl in Orlais can perform miracles without magic, and receives visions from Andraste, or so it seems.
+A group of city elves want a settlement entirely in their hands.
+A group of werewolves claim they want to settle peacefully in a Fereldan forest.
+A ghost ship, captained by a shade, preys on vessels in the Amaranthine Ocean. (This could be changed to a pirate ship.)
+A noble widow receives advice from the shade of her dead consort. Is it a trick or threat?
+A radical noble appears to have the blessing of the Landsmeet to replace the current king.
+Treasure hunters claim to hear the voices of children playing in a walled off section of the city, but can’t find a way to get in. The voices fade at night but no adults are heard calling them.
+A half-ogre calling himself the Baron of the Wastes has taken up residence in the city, and is recruiting any monsters who will work with him. Those who have gotten close enough to hear say that he is looking to build an army to terrorize the countryside.
+Strange, colorful lights appear over the city at night swirling and dancing in the sky. In the morning they descend atop a preserved, hard to access tower in the center of the city.
+A merchant who has returned from the ruins of the city is selling treasures she has uncovered. A family who claims to be originally from there says that some of those treasures belong to their family but have no proof, and therefore are looking for those who can help.
+Giant webs have quickly been cast, covering nearly the entire city in a week. As the webs begin to reach toward local forests and villages and giant spiders have been spotted, panic has erupted and a search for a way to deal with them is underway.
+Orcs and trolls have been fighting over control of the ruins for months now, but recently crudely written signs have appeared asking for mercenaries to join the orcs. They claim that they just want to have a place to stay but the trolls are set on destroying the city.
+A thick miasma has been emanating from city ruins, making nearby travelers sick with an unknown illness. The local magistrate wants an investigation to take place and put an end to it.
+A lone skeleton wearing old, tattered finery was seen near the city, waving arms towards travelers and making strange sounds. Some say it appeared as though it was beckoning them towards the city, but none have been foolish enough to approach.
+A large crystal fragment brought back from the city has recently awakened, speaking telepathically to any nearby asking for help. They are claiming to be a soul from the past, and begs those who might be willing to return with them to prevent the city’s destruction to do so.
+A black dragon wyrmling has recently made its nest in the city, claiming the area for itself with the help of some kobold followers. A kobold recently came to civilization to hand over a note saying as much and warning people to stay away and pay a tithe.
+Ghosts go about their business in an old tavern, not even aware that they’re dead. One lone soul is aware and asks for help finding and burying the physical remains of those inside so that they all may finally rest.
+A group of ragged, nearly feral humans and elves have been sighted near the city, causing speculation about their ancestry. Some believe that they are the descendants of those who went into hiding when the city fell and that all efforts should be made to make peace with them.
+Every night, glowing footprints appear leading into the city’s marketplace, where they confusingly walk in circles and are hard to follow to any determinable destination. They disappear in the sunlight and show up in a new pattern afterwards.
+A giant effigy in the city that can be seen from the road is being built and expanded upon by gnolls, who flock to the city in growing numbers. People are understandably frightened by this, especially since the gnolls appear to be growing in size as the effigy grows.
+The Builders Guild is looking to hire some protection in the city as they’ve been contracted to start demolishing and rebuilding parts of the city. Since they started at least one worker gets found turned to stone each day.
+Last night, various spells could be seen going off around an intact tower, leading some to believe a wizard has been alive in the city this whole time. A friend of the city’s archmage holds out hope that it is him and wants to make contact with the wizard.
+Every year, the villagers that live near the city gather and light candles around the city’s perimeter. They say this wards off the evil spirits and souls of the dead inside the city from coming out and attacking them, but this year the candles won’t stay lit for more than a moment.
+Golems made from old debris have been stalking around the city, aggressively attacking nearby travelers by throwing more debris at them. Who made these monsters, and why protect an abandoned pile of rubble?
+Buildings in the city have started collapsing, leaving some to wonder what’s going on behind the broken walls. Some brave scouts who have ventured in say that they are seeing huge holes and tunnels appearing under the city, and the buildings are falling in.
+A floating castle has drifted over the city and stopped, and long rope ladders have been lowered. The heraldry on the castle and those descending the ladders is entirely unfamiliar to any who see them.
+Highwaymen have been harassing travelers and have taken some hostages inside of the city. They are asking for weapons made of silver rather than gold in exchange for their safety.
+A beam of red light shines down onto the city, directly onto the temple of the goddess of life. This is an unheard of occurrence, and her followers want answers.
+A statue of the ruined city’s first ruler has been successfully excavated and moved to safety into a nearby town. Now, small cracks are appearing and moisture seeps out through the eyes of the statue, leading many to believe it is cursed.
+Excavators claim to have uncovered a secret passage under the castle, and say they believe it was filled with treasures unaccounted for by history. However, after the first attack by undead, they would rather experienced adventurers clear it out in exchange for a cut of the treasure.
+According to the local alchemist, a very rare gem is required to make the antidote to the plague that is spreading around. The last known location of one is set in the throne in the heart of the ruined city.
+The Chaos Blade is said to be a sword forged in the fires of the world when it was still forming. The since ruined Temple of Order were the last known keepers of the accursed weapon but murmurs have emerged of many treasure hunters looking for it.
+The rise of demons serving under the dark god has led to an increased search for the lost temple of the goddess of love. Her holy weapon, the maul Heartbreaker, is the only weapon known that could defeat the dark god, her former lover.
+The Staff of Soulcatching has made its way into the hands of the mad queen and she is already abusing the powers of it. A rogue faction has been seeking adventurers brave enough to siege the castle before she siphons the souls of her entire city.
+A pair of throwing daggers, Lionspride and Wolfspack, are entombed in a statue of two brother generals stabbing each other at their final battle. Many have tried to pry them from the statue but magic repels all but siblings from even trying.
+A famous escape artist was once the owner of the aptly named Doordagger; a dagger that could carve a door into any surface. She and the crew of the ship that were detaining her met their end when she thought to carve a door into the bottom of the ship, not expecting to immediately flood the ship and drown with her captors.
+Originally a gift to mortals by the god of nature, the Longbow of the Harvest can spread and speed up the growth of flora by being cast over any land. A group of misguided druids have gotten their hands on it and now spread briers and poisonous plants towards civilization as a way to make them atone for their perceived crimes against nature.
+The Maze of the Laughing God is home to a few treasures and many a trap, but the only ones ever recovered were the Lockpick Bolts used to magically undo locks from a distance. After the last bolt was used by a notorious criminal they are said to have returned to the maze, waiting to be won again.
+In the underground tunnels that run beneath the dwarven mountains the Stoneshield has fallen into the hands of the wretched trolls. While they are unsure of how to wield its power, their shaman king wears it as a belt buckle to mock those who once had it.
+A shield known as The Tower is famous for its ability to house its wielder inside of a magical tower at a moment’s notice. However, after the last wielder refused to leave, many feared his death, and many more feared so after seeing and hearing signs of the undead coming from the magical tower.
+The otherworldly Djinnplate, crafted by the efreeti and other djinn, was stored in a magic lamp much as they sometimes are imprisoned. The effects of this wondrous armor are not known to mortals, but that has not stopped dragons of terrible renown from fighting over the lamp that holds the relic.
+The Crowfeather Robe has been the ire of many an adventurer who sought to slay the infamous lich of the wastes. Whenever his defeat is imminent he simply turns into a murder of crows, flying away and appearing at whatever crow is most suitable to him as he returns to his lair.
+The Cloak of the Colorless once gave a mercenary power to best the most experienced swordsmen in single battle. Misconstruing the intent of the cloak, a dryad that lived inside of a painting lured the mercenary inside where he would be forced to live in color without a way out of the painting.
+They say to be wary of old women gambling away magic garments on the side of the road to travelers. A hag is known to lose away the Twicehexed Mantle to those down on their luck, first bringing them great fortune and then having them lose it all and then some for the entertainment of the hag.
+In the dungeon of woe lies a relic that is key to escaping through its mouse-sized hallways. The Belt of Shrinking allows the wearer to tighten the belt, growing smaller as they do so until they stop pulling on it, though loosening it doesn’t seem to make you grow any larger.
+The tribes of the desert have a legend that says inside every shooting star is a ring that will imbue the wearer with the strength of the star itself. One recently crashed down in the desert and the tribes have been in conflict over it ever since.
+On the wrist of a most loved king in an ancient tomb is the Bracelet of the Worldeater. The bracelet is said to have been the key to destroying the entire world and was given to the king as a way to stop it from falling into the wrong hands. The sight of skeletons stirring in the tomb has given way to a terrible feeling of despair around the world.
+In the Hall of the Unseen is the Ring of the Observer, a ring which allows anyone looking through it to see any and all invisible matter. The irony is that the Hall of the Unseen can only be seen through the ring, but the ring itself is visible to any who approach the hall, unable to reach it through invisible walls and protected by invisible creatures.
+The prince of the cloud giants wears the Sun Necklace as a bracelet around his wrist. In truth the necklace can command the sun stay where it is or call it in the night, but even when told the prince refuses to give it up or use its power for good.
+A fanatical group of anti-magic crusaders have taken up the Nullmagic Axe as a way to stop the use of magic in the region. The axe has been able to slice through magical barriers and weapons with ease, and effectively cuts down those with magic in their veins.
+Yesterday’s Orb allows one to scry into events of the past and get a true understanding of history. A cult of chronomancers have seen to taking and hiding the orb as they fear some might use its power to change the timeline of the world and alter history and future both.
+Alongside many other banners outside of a dragon’s cave is the Stoneheart Banner. Simply being in the presence of the immaculate banner removes the fear from mortals in the face of certain death, which the dragon has come to appreciate as his meals become more frequent.
+Underneath a landslide are the Boots of the Immovable. What is not immovable is the rest of the body of one wearing these boots, which was found bloody and flattened at the bottom of the landslide.
+After the king was poisoned, it was discovered his chef had been using a mysterious Gemstone of Flavor that had the ability to mask or enhance the flavors of any ingredients. When asked why he would do such a thing to his king the chef replied that the gemstone told him to.
+A thousand years ago, a crazed gnomish sorcerer created the Clockwork Cube of Destruction. It laid dormant in his workshop until recently when it was seen rolling around the countryside, slaughtering livestock by simply touching them.
+The archmage has put out a discrete call for adventurers to retrieve a stolen artifact of his. He claims that a thief must have bypassed his magical securities to take his Bag of Portals, which can pull any creature from any plane of existence randomly.
+The villagers gather at sunset on the last day of the year to celebrate Setting Sun Day, where they bid goodbye to the bad luck of the current year to make room for the good luck of the upcoming year. It’s been hours and the sun doesn’t seem to be setting on the horizon and people feel their energy draining.
+On the first day of the year, it’s tradition to flip 3 coins- one gold, one silver, and one copper- with a heads on each coin meaning positive and a tails meaning negative for the following year. Gold represents wealth, silver represents friends and family, and copper represents health. Up until this year the mayor has gotten all heads every year, but now they get all tails.
+Every year on the king’s birthday, the people celebrate King’s Day in honor of their benevolent ruler with general merriment and fun throughout the city. However, he has acted weirdly lately, and just announced this year there will be fights to the death in a newly built arena for his amusement.
+The queen has decreed a day in her name for the people to celebrate. Rather than giving gifts to her, she has asked everyone to give to those less fortunate than themselves. Oddly though, she refuses to give anything herself and instead takes credit for the gifts others give, making some of her subjects confused or irritated.
+On the first official day of summer, it is tradition that the townsfolk each donate a bucket of water to fill up a large hole that is dug in town square for swimming. After the hole was filled this year, a giant tentacle came out and dragged someone under. Needless to say, there was panic and no one has gone near since.
+On what is usually the hottest day of the year, a Festival of Fire is held to stave off the god of fire who would burn their crops. This involves burning small offerings of meat, flowers, fruits, and melting down coins. A fire elemental has emerged from the flame, demanding a person also be offered in flame from now on.
+A small village appears to be celebrating Goddess Day and invites passersby into their temple to celebrate and receive a blessing from their goddess. One such traveler who took them up on their offer said he narrowly escaped being sacrificed to said goddess instead.
+On the 7th full moon of the year, the Dance of Dragons is started when two ancient dragons emerge from their lairs; one in the mountains north of the city and one from the south in the sea. They dance a choreographed battle above the city and then land, sharing their wealth with the city in exchange for good stories from the people.
+The end of the harvest season is capped off with a Harvest Festival where farmers and merchants set up stalls and sell and trade their crops with others, and people leave small offerings to the spirits of nature. A few however woke up on the morning of the festival to find all of their crops had shriveled and died overnight and have no idea why.
+The wizards of the city put on a parade every year showing off their newfound skills in a type of Magic Parade. The parade consists largely of illusions and conjurations that are benign, but occasionally a dangerous spell makes its way in for some extra flare. Unfortunately, this year it meant summoning a bunch of small demons that got loose and ran away to hide within the city.
+On the shortest day of the year clerics that serve the god of light use their divine powers to shine light through the night in the Night of Light festival, and villagers help by lighting all the candles and lanterns they can. This year was another success, but a week later and the magic light refuses to be snuffed even by the clerics.
+Fey Day is looked forward to as much as it is feared by the people who celebrate it, though celebrate may be a loose term. On this day various fey play pranks on mortals, doing everything from planting flowers everywhere to temporarily polymorphing them. That is, until one particular pixie polymorphed the king and disappeared, refusing to change him back.
+Pirates and sailors alike pay homage to the kraken of the Day of the Sea by dumping portions of their treasure into the sea for protection. Many who sail in the great depths of the ocean on the day claim to have seen the kraken’s large tentacles come up and almost wave, only to slowly submerge and not be seen again. The last sighting however was 20 years ago, and some are thinking of skipping the celebration this year.
+The people celebrate a day of fasting in honor of the spirit of ravenous hunger. Legends claim that a hungry spirit lies dormant every year, awakening on one day where it consumes the negative spirits and fill people with positive energy. Those who don’t fast find themselves sick, and this year they find themselves rotting away while alive and in immense pain.
+Atonement Day, a holiday established by the local clergy, is a day for the common people to acknowledge their shortcomings and receive blessings of the gods for the next year. However, it has become known that the priests are using this information to blackmail and sabotage those with power in the community.
+A noble baby whose birth was prophesied to end war was born and the entire kingdom has begun celebrations as soldiers put down their weapons. That night, many streaks of fire were seen careening in the sky, and one has turned out to be a small flaming boulder that decimated the surrounding area on impact- and more are coming!
+In the nomadic tribes of the desert, one day a year is dedicated to sowing chaos. This Day of Chaos is a day where tribal laws cease to exist from sunrise to sunset, where destruction is encouraged, and at night everyone drinks themselves to sleep to finish ridding themselves of stress. Heinous crimes such as murder and the like are still forbidden, and many would look the other way at the murder of one who has just murdered, but this year an entire tribe was found dead by another wandering tribe just days after the event.
+After wanting yet another reason to sell their wares, the merchants have come together to start Trade Skill Day! This is a day meant to celebrate the craftspeople who make the goods everyone uses; from cooks to blacksmiths to alchemists. The farmers however have decided not to participate after learning that their goods sold would help line the merchant’s pockets more than theirs, and are protesting and making life difficult for those gathering in the city square.
+Mortician’s Eve is the night before Ancestor Day, when the morticians and clerics work to ready the grave sites and tombs for those wishing to pay tribute to their late ancestors. Common people spend the night walking around with multicolored candles playing tricks on each other. Unfortunately, this year a trick went too far when mud was slung and hit the side of a royal tomb, releasing a terrible shriek from inside and causing the clerics to go missing.
+On Ancestor Day, people visit grave sites of their lost ancestors to pay respects and remember them and their deeds. This is capped off with letting the candles from Mortician’s Eve melt onto the various graves and inside the tombs until they are completely gone, signifying the completed sending of messages to the deceased. However, it would appear all of the candles from the previous night have turned black; a bad omen from legend signifying demons are about.
+One of the oddest festivals, Night of the Necromancer, sees benevolent wizards and clerics use their powers to animate the dead to clean up around the community, help harvest crops, and otherwise just help. It serves to both give back to the people as well as reduce the fear of the undead among them. That is, until a bone golem was accidentally summoned and destroyed a city wall before making its way to the mountains.
+The Endless War finally ended after 500 years just a few years ago, and the day the peace treaty was signed was dedicated to all the soldiers on both sides who fought and died. People celebrate Soldier Day by respecting their sacrifice and by resolving to understand those different than them. However just a few short years after the war, someone has begun leaving graffiti around major cities inciting violence that threatens to restart the war.
+Every year adventurers seek out to slay a roc so that they can use it to feed the surrounding towns with a giant feast. During this feast townsfolk are encouraged to reflect on the last year and thank those who have helped them while also resolving to be humble and ask for help when needed in the next year. The roc population is dwindling, and protesters are threatening to stop the holiday this year.
+Merchants look forward to the Winter Festival, where people give gifts to the ones they love as a way to show their feelings. Especially sought over is the frozen rose, actually made of frosted glass, which people give to the one they love as a way or proposing to them. A prince has decided to ruin as many people’s fun this year as possible after his frozen rose was rejected last year by buying every frozen rose he could and smashing them.
+In the dead of winter, many small towns celebrate Hearthfire on the first big snow of the year. People are encouraged to stay inside, take a day or two off of work, and spend some quality time with their loved ones and tell stories around the fire. Things start to go awry when the snow continues to pile up and guttural yells can be heard outside and large shadows can be seen outside.
+After hearing a baby crying near the graveyard, a villager saw a baby lying on top of a grave. Before they could get to it, they say a pair of hands reached out from the ground and brought the baby under.
+Every night another tombstone is found vandalized with carvings. However, last night those carvings started glowing like runes and the wind grew wild and strong while they glowed.
+Last week the blacksmith in town went missing and no one knew where they went until they were recently discovered dead, stuck on the inside of an underground tomb. However, they had completely decomposed in that time, leaving just bones and clothes.
+A group of cult-like robed travelers came into town, demanding to speak with the “King of the Dead”. They finally found who they were looking for- a child no older than six playing alone in the graveyard.
+After a series of high profile grave robberies, a pair of robbers were found in dug up graves, dead, and in the embrace of their latest targets. They were also wearing the spoils of their previous crimes.
+An acolyte tasked with maintaining the crypt has come out, pale and shaken, and only able to mutter the word “honest”. Those who have gone down to the crypt since have not seen anything traumatic that would cause this.
+Every night after midnight, the groundskeeper of the cemetery claims he can hear small bells ringing, coming from the area around the children’s graves. Once he mustered up the courage to investigate, they stopped suddenly but returned the next night.
+All the cats in town have been gathering at the graveyard every night. They don’t do anything other than lay around, but their growing numbers by the night have the townsfolk freaked out.
+The grass over certain graves has started to turn either red or blue. The pattern, according to the town historian, is regarding which side in a great conflict the buried took centuries ago.
+The word ‘HELP’ was found scrawled onto a grave with chalk. Three days later, the grave was dug up by what looked like claws, not shovels. Now ‘HELP’ appears on another grave a short distance away.
+The gravekeeper has starting running a late night shop while on duty for people who need things at odd hours. At first it was just general goods, but now he is selling some fineries and jewels and there are suspicions on where he is getting these.
+Disembodied hands were seen surfacing from graves and going into houses. When they returned to the graveyard some were wearing bracelets and rings before digging back down to their graves.
+The shadows cast from torchlight at night have been growing longer and larger, and recently a villager claimed to see them move on their own. They do seem to stretch closer to the town, even when the sun shouldn’t cast them in that direction.
+Rats have emerged from the crypt and have been seen with bulbous growths on their bodies. These growths explode near people, making them sick and bedridden. The first such victim recently was seen shambling through town and trying to attack another villager!
+Headstones have started to explode, sending stone and steel flying, apparently randomly. There is no discernible cause or pattern, making it all the more concerning.
+A druid has visited the town, wanting to bless the recently deceased animals buried in the pet cemetery so that they may find their way back to the goddess of nature. He was last seen leading a procession of walking animal corpses out of town.
+Red clouds form low over a mausoleum outside of town, with lightning occasionally striking the structure. Each strike of lightning rings out a different musical note.
+Mutilated bats with their wings removed have been found scattered across the graveyard. Some appear to have had their wings ripped off while others were a cleaner cut.
+A child was found unconscious in the graveyard in the early morning.She says she heard and saw a fairy singing in the graveyard that zapped her when she got close
+A groundskeeper tripped fell into a hole where solid ground above a grave should have been. The fall revealed a long tunnel with warm air coming through, and it had been covered up with blanket made to resemble a dirt mound.
+A deep voice emanates from within the crypt, telepathically beckoning those close by to come speak with their deceased loved ones. For obvious reasons, no one has dared enter the crypt since.
+Colorful lights dance and weave over the mausoleum at night before finally entering back through the cracks in the building and a curious villager followed them in. Those outside at the time heard a scream, and the villager has yet to come out 3 days later.
+Odd body parts have been found near the edges of the graveyard. This was the source of confusion until an entire body appeared to be floating towards the edge. It wasn’t until the gravekeeper approached it that an uncountable number of spiders that had been carrying the body scattered and hid.
+A black, viscous liquid has been seeping through the top of the graves, turning the graveyard into a swampy mess. Upon touching flesh the liquid burns like acid, and the local alchemist is completely befuddled why what it might be.
+After being caught and tried for his crimes, the leader of a local bandit gang was burned and not properly buried. Now the townsfolk claim his spirit haunts the cemetery to prevent them from letting them put their loved ones to rest.
+Reports of children being lured into the forest by short, goat-legged men have grown rampant. Any satyr questioned about this claims to not know about it and divination magic confirms they are telling the truth.
+Many creatures of the forest are being found petrified in stone. While mostly small animals like squirrels and beavers have been found, some elk have been found petrified, broken apart, and missing pieces.
+A long-dormant treant of the forest has finally woken, speaking in an archaic language and heading out of the forest toward the nearest town. The other inhabitants of the forest have no idea where it is going or why.
+A man is seen gracefully dancing on water as though it were land. Suddenly, a clawed hand reaches up out of the water and grabs him down by the leg and he screams out in horror.
+People traveling near the forest claim to see a unicorn galloping out near the tree line. However according to legends, unicorns died out centuries ago and these sightings are dismissed as wild horses.
+People trying to travel through the forest keep winding up turned around and back out where they started within minutes of entering. Their compasses and other navigation gear all spin around or otherwise go crazy inside.
+Oversized insects are running amok, leaving the forest and then returning to it after they wreak havoc all over. A fairy was seen riding an oversized wasp among the swarm of bugs.
+The underbrush grows around travelers, making travel difficult in the forest. Just last week someone was found dead, cocooned in flora, likely suffocated and crushed.
+An ancient elf welcomes all who make it to his shanty in the forest, happily selling and exchanging magic items with them. Part of the deal always includes the customer giving up something they love or there is no deal.
+Lizardfolk have started to invade the forest and their shamans have begun corrupting the land. Wherever the lizardfolk go the ground becomes swampy and marshlike and the flora warps to match the landscape.
+An ornate archway was found seemingly out of place in the middle of a clearing. Getting close to it makes images of a ruined city flicker inside, giving just enough of a glimpse to make out some details of the ruins.
+Legend says a hag lives deep in forest and will tell you your future in exchange for part of your soul. She apparently came to collect part of the local king’s son’s soul, leaving him in a coma and the king outraged.
+It was discovered taking a dip into a specific part of a river in the forest turns you into an animal temporarily causing people to flock and try it. The last few have yet to change back even days after they turned and people are beginning to panic.
+Elves in the forest say they noticed a change in their archfey’s demeanor and they are concerned. Their previously benevolent patron has been commanding them to prepare for war and slaughter and intruders, though not many have complied with her wishes.
+Occasionally fey versions of different creatures make their way out of the forest, and the latest to be spotted are fey goblins. They have wings made of spider silk, large sharp teeth, and the same anger that fuels their normal kin.
+The Earthstone, a magic artifact that provides magic to the forest, was stolen in the dead of night. Now the forest begins to wane in power and the need to recover the Earthstone is of dire importance to the forest’s inhabitants.
+Lycanthropes reside deep in the forest, protecting themselves and others with their seclusion. Recently a werewolf was accused of murder in a nearby town and the militia has begun invading the forest to find the lycanthrope village.
+The dryads of the forest are nowhere to be seen and the druids who visit them are losing power. The dryads were the source of the druids’ power and without them, the forest loses those who defend it.
+The land throughout the forest rips and tears, revealing a river of lava that now flows through. Fire elementals make their way out attacking the forest and its inhabitant, but water, wind, and earth elementals fight back against their fiery kin.
+Crystalline fungus has started growing, releasing tiny crystals instead of spores. When these crystals attach to living creatures they sap the energy from and cover people all over until they fall into a coma.
+A second moon is visible only to those standing in the forest. When the moons align, a large magic circle is visible in the main clearing, but no one know what it is for or how to activate it.
+As a defensive measure, the pixies have caused their villages to go invisible to protect them against the invading orcs. However, they now ambush any who come near, friend or foe in fear of being discovered and attacked.
+All the lakes in the forest have frozen over despite the heat, and a mysterious cave has appeared in the center of the largest lake. Whispers of the “Frost Queen” echo throughout the forest, and slowly the rest of the forest begins to show signs of frost and the effects of cold weather.
+Harpies have recently moved into the forest and are killing too many local fauna to sustain themselves. This is disrupting the ecology of the forest and many other creatures are beginning to go hungry or leave the forest.
+After centuries of staying in and protecting the forest, the centaur tribes have finally resumed their nomadic patterns and are beginning to leave, leaving the other inhabitants of the forest susceptible to attack from hated foes.
+The wizard has been inviting guests over, but rumor has it if you go exploring in the tower that the stairs bring you to random floors instead of up and down. Why is that?
+People have been concerned about the open portal outside the wizard tower. A local cleric says they saw a lesser demon step through before being destroyed by the wizard, but the wizard refutes such a claim.
+A local wizard has invited any adventurers in the area to their tower for a trial. Upon entering, people are shrunk and made to reach the top of the tower to reverse this effect. We only know this because people have chosen to leave under the door than to try and climb the tower.
+Reports of strange hybrid monsters coming from the tower have become common, with a chimera recently started to terrorize the town and returning to the tower at night.
+After a new wizard moved into the nearby tower, the flora around the town has started dying and decaying and strange, and hooded figures have been visiting the wizard.
+Last week, a loud bang was heard out in the distance before the wizard tower appeared in the center of town, collapsing a few buildings beneath it but luckily injuring no one. The wizard claims to have amnesia and says they’re working on fixing it.
+During a recent orc raid, the wizard tower itself moved, revealing itself to be a giant golem to fight off the invaders. Although they’re awestruck, the townsfolk wants to know why the wizard doesn’t use the tower to help defend the town.
+It’s been discovered by recent travelers to town that the same wizard inhabits an identical tower near their city a few months away. After comparing stories, the wizard has definitely appeared in both locations in the same day.
+People are getting freaked out by undead servants cleaning up around the tower and turning it into farmland. The wizard says that it’s all natural and that it is just a form of recycling.
+A former apprentice of the wizard has been kicked out by the wizard after the apprentice found some tomes on becoming a lich and questioning the wizard. He fears that the wizard, who is nearing death, might be planning something drastic.
+Every morning at sunrise, minor earthquakes originating from the tower go off periodically for a random amount of time. People have asked the wizard what is causing them, but they claim to have no idea about the earthquakes at all.
+A stone giant has been guarding the wizard tower at night, and when asked about it the giant says that she is being paid by the wizard to do so. There are no real threats to the wizard, so why hire the giant?
+After accidentally causing some property damage, the wizard has begun putting on magic light shows for the townsfolk every night. People who stop going to watch the light show seem to get angry about the property damage until they watch the show again.
+The mayor of the town receives a letter from someone claiming to be a wizard from the future. They tell them to not allow them to move into the tower else the town will be destroyed, but don’t provide any more information than that.
+For some reason anyone walking near the tower is pulled upwards, as if gravity were reversed. A day ago a child wandered in too far and has not come back down, and the wizard is unreachable to help.
+Everytime someone sees the wizard, he appears a few days younger and does not remember any recent conversations. The townsfolk aren’t sure what to make of this or what can be done to help the wizard.
+After being abandoned for years, a band of marauding bugbears have taken control of the tower and unearthed some arcane artifacts. Surprisingly, they seem more interested in turning a profit off of them than using them to make war.
+The wizard had put up a sign stating that she is selling experimental potions for cheap. Such concoctions include expired love potions, vials of minor growth, and elixir of gnome strength.
+Faeries start swarming to the tower, demanding to speak with the wizard who won’t answer them. When pressed for why, the faeries claim that he destroyed their colony by harvesting it for magic.
+Some kids investigated the old wizard tower on a dare, but only one came out after a group of them went in. The one who returned says the others were taken by ghosts or some other spectral creatures to another plane!
+A new forcefield around the tower is causing a lot of bird-related deaths, causing some concern from the locals about why the wizard needs such protection, especially since he supposedly dealt with the evil necromancer a year ago.
+A new teleportation circle has been installed in the tower, allowing travelers from faraway lands to come visit. However, they have quickly started to build up a second town nearby, stealing trade and traffic from the original town with their exotic wares.
+After a few months of silence, some townsfolk went to visit the wizard. They were met by a scrawny goblin, claiming to be the successor of the old wizard who has since passed. Strangely, the goblin does not know any magic despite this claim.
+A raven, the wizard’s familiar, has been trying to get people to follow it back to the wizard’s tower all day, but for some reason none of the locals want to go with it and they won’t say why.
+Different colored clouds keep forming above the wizard tower and floating over the town, releasing rain of rock, fire, electricity, and arcane. This is causing some obvious problems for the locals who have had just about enough of the wizard.
+A large boulder blocks the central path in a valley, and a hill giant stands by offering to lift it up temporarily for trade. The strange part is that he wants a flower that is very common in the area; some of them are growing 10 feet in front of him!
+A local ranger offers to show travelers a shortcut, but some people don’t trust him. He went missing a few months ago and only recently reemerged much hairier than he used to be.
+Due to overpopulation, hippogryphs has started nesting lower to the ground. This by itself isn’t a problem as they are not aggressive, but poachers have been showing up in droves and at least one altercation between poacher and traveler has left those involved with injury.
+A mudslide recently affected a large part of the pass, making it hard but manageable to travel through. The worst part is small mud imps throw rocks and clumps of mud at those who pass through- not to hurt, just to harass.
+After digging into the mountain in search of precious gems and metals, the dwarves have repurposed one of their mineshafts to act as a shortcut underneath the mountain. This seems like a good deal for those willing to pay a few gold, but the bent, unconnected steel and “jumps” that the minecarts need to make leave most people terrified and shaking after arriving on the other side.
+Trolls who normally live at the top of the mountain have started coming to the lower depths to attack people, especially merchants, on the path. Rather than eat them and leave the shiny bits like they normally do, they’ve been stealing but allowing their targets to live, causing speculation of their new behavior.
+Many openings to an underground cave network have opened up all throughout the mountain pass. Unfortunately, they serve no real purpose other than allowing subterranean predators to prey on those passing through on the surface.
+Giant spiderwebs have been appearing all over the path, making all travelers worried about the size of the spider that must be making them.
+Sights of a supposed dragon have all but halted travel through the mountain pass, stifling trade and causing some smaller communities to suffer. They are offering a collective reward for anyone able to kill or drive off the scaled menace.
+There has been an increase of monsters that disguise themselves as rocks such as stalagmites and stalactites within a certain cave and even outside of it. These have always existed, but the quick uptick in sighting and encounters with them has locals questioning why and how this could have happened.
+Travelers speak of a thick-furred monster attacking them near the top of the mountain pass. One survivor asks anyone willing if they could retrieve a lost pendant that was torn from them while running from this creature.
+A new, mysterious cave passage saves a lot of time for anyone willing to traverse it. No one knew who had carved it, until the giant ants started coming out of the walls and hunting those inside.
+An overzealous earth elemental has begun restoring the parts of the mountain that have been carved for travel back to their previous state, undoing years of work. When asked why, they state that the merchants who travel litter and show no respect for the earth.
+After mistaking a cave hosting stirges for a simple cave of bats, travelers who spent the night find themselves close to death and afflicted with a deadly disease. The local cleric says the only way he can create an antidote is with a few live stirges present.
+During a particularly busy time for the pass, one of the mountains reveals that they have been a dormant volcano, suddenly bursting and causing all manner of life to search for refuge.
+Bandits figured out that by hiding out high above paths that they can easily shoot at and intimidate passersby into give them their belongings. That is until orcs started climbing even higher than them and holding up both the bandits and the passersby.
+After a series of small cave-ins, some kobolds have begun selling homemade explosives to any who will buy them. While nothing bad has happened so far, many wonder why they are being so helpful.
+Supposedly, the top of the mountain is home to a holy pilgrimage site to a god of travel. While few bother venturing up there due to monsters and natural dangers, those who do claim being given a boon that grants them safety on the road.
+A growing number of humanoid bones litter all parts of the pass, freaking out anyone who travels through. What might be creepier is that no one has been reported killed or missing since this has started.
+A small group of goblins pester travelers, asking if they want to hire their band of adventurers as guards. Most people laugh at them and move on, leaving the goblins to sulk.
+An ettin has been arguing with itself about whether to open up its personal tunnel to others for a price or to keep it closed. Somehow this has resulted in the ettin sitting in front of another path, refusing to move until it can be convinced one way or the other.
+A particularly intense thunderstorm has swept through the pass recently. When a bolt of lightning stuck the peak of the mountain, it partially peeled away to reveal a giant, beating heart within.
+A shaman living off the path has come out of solitude, looking for a curious set of spell components that would have to have come from halfway around the world. He won’t say why he needs them or what he is willing to trade for them, just that it’s a matter of life or death.
+The same horse keeps appearing at one side of the mountain pass every morning. No matter if someone ties it up at night after riding on it or otherwise restraining it, it always ends up back at the start of the path without a saddle or other gear.
+Harpies have somehow come into the possession of explosives, likely either bought or stolen from kobolds. They are using these new weapons by dropping them on travelers below, leading to an intense effort to eradicate these avian humanoids from locals.
+A rumbling could be heard coming from the swamp that sits in the center of the jungle. Anyone who goes there now sees a large ziggurat that has risen, and now floats above the surface.
+After a member of an excavation team falls into quicksand completely, they appear to crawl out not too long after. They claimed that they were transported back in time hundreds of years when the ruins were active and lively, and urge you to see for yourself.
+A friendly tribe native to the jungle warns anyone who goes near the temple to not search for ancient artifacts, saying any that remain within are cursed and will awaken an ancient evil.
+Oversized animals roam the jungle; so far giant tigers, gorillas, and crocodiles have been seen and people are taking care to avoid them. However, the gorillas have been getting closer every day and some are afraid they may attack the camp.
+During an expedition into the jungle surrounding the ruins, an explorer was attacked and strangled by a living mass of vines and vegetation. This isn’t the first time the plant life has appeared to be alive, but it is the first time that they have attacked a person, and no one knows why.
+After a team of builders begin to reinforce parts of the ruins so that they don’t collapse, their tools have started breaking. Some believe them to be cursed, and now they aren’t allowed back into the camps until they can prove they’re uncursed.
+Large stone guardians, at first believed to be statues, have begun roaming around the ruins, charging at anyone you gets too close to them. An excavator screamed at one during the charge and it halted its attack, but now it follows the excavator around and watches over them. Other stone guardians pay them no here but will still attack others in the expedition.
+A tinkerer within the group has devised a new way to travel within the jungle! They’ve created pairs of canvas wings that you strap into, and then you get catapulted into the sky above the trees. This sounded great until the lead explorer was flung halfway across the jungle with no good way of navigating back.
+Relations with the normally agreeable lizardfolk in the area have grown tense as those within the tribe deal with infighting. Some wish to continue to revere the ancient spirits of the swamp as they have, while others want to change their allegiance to a new black dragon that has made their lair in the area.
+Snake people have begun coming out of the ruins and raiding camps, but most horrifically they are stealing people out of their beds to be sacrificed at an alter atop the ruins to appease an ancient god.
+An alchemist has requested help from anyone who can get him certain plants so that he can help stave off rashes and poison in the jungle. It’s these same plants however that are extremely poisonous to handle, so none have been willing to help him.
+After digging in the swampy waters, zombies have been awakened and now climb out from under the fetid water, seeking only to reenter the ruins of a large temple and clawing at the entrance until their hands fall off.
+Small moving lights have been seen at night, occasionally helping lead those out exploring through difficult passages. Their help has been appreciated, until two incidents of the lights leading them straight into the nests of hungry animals has led to some casualties.
+A famous explorer, well known for their ability to handle any situation with a cool head and always being successful, has found your camp and is extremely shaken. They say their entire expedition has fallen prey to a humongous bird that swoops down and between the trees with ease, and that their cries for help still haunt him.
+Legends from locals warn you of an ancient shapeshifting hag who resides in the jungle. They say she can read your mind and will transform into the visage of someone you know, asking for help. If you get too close though, she will pounce and take you, leading to people being unwilling to aid anyone by themselves who have been lost in the jungle.
+Since some alchemical supplies were accidentally poured into swampy waters, the area surrounding the jungle has been masked with a thick fog, causing coughing fits for anyone who enters. Samples of the water have revealed a chemical reaction is causing this, and the only way to stop it is to pour a sufficient amount of holy water towards the center of the water.
+Each night, spectral visages of ancient people can be seen walking around the ruins, interacting as if they were still intact. They haven’t acknowledged anyone living, though they walk around them and can make physical contact.
+A witch doctor has claimed that he can cure any ailment which has brought a good number of travelers to the swamp seeking his help. While most of his visitors speak good things of him, lately there have been some disappearances of those who went to visit him and people are beginning to get suspicious.
+The remains of a destroyed campsite were found a few hundred feet from your own. No one was aware of any other expeditions in the jungle, but more disturbing are the giant claw marks that are found in the site, ripping even into metal.
+A large whirlpool has opened up in the swamp that surrounds some of the ruins. It seems to move around and head for any movement in the water. No one has dared enter, but some have claim to have seen a bird get sucked into the water by sheer force.
+While normally not being short on bugs, the jungle has seen swarms of insects take flight and resembling one large, amorphous entity. Natives say the strange behavior means the return of an old warlock who used to terrorize the jungle hundreds of years ago.
+An old arena in the ruins of the jungle still seems some use by native tribes as a way to show tests of strength. A member of the expedition accidentally volunteered to enter through a miscommunication and was mauled by a together after pleas to be let out, causing a rift between the natives and the expedition.
+Many of the braziers that litter the ruins have spontaneously lit themselves, spreading concern amongst the expedition. Even more concerning is when the fires of the braziers moves off them, resembling fire elementals, and attack any creatures that come to close
+Explorers have found a section of jungle filled with thorns and briers, unusual for the climate and the environment. They didn’t have much time to investigate as plant-like humanoids made of vines and thorns chased them out before resuming corrupting more of the jungle.
+After concocting a strange potion using ingredients from the jungle, a wizard from the expedition has managed to turn himself into a lizard. He still possesses intelligence and is writing instructions in the dirt on how to turn him back, including delving into the temple for some reagents.
+People have started reporting sightings of large rats near the sewers, and some claim that someone lurking in the shadows commands them! The guards have no interest in delving down into the muck to investigate.
+An apparently once beautiful manor within the city has been deemed as haunted by citizens now that it is old and decrepit. Some who claim to have been inside say that each time you go in the layout of the house is different.
+After announcing some political changes for the city, a poisoned arrow narrowly misses a member of the council speaking to the public. All that was seen of the assassin was the blur of their movement and that their bow was silver.
+Fires have been becoming more common in the city, and new reports make it seem as if they are connected. A few fires in, citizens have noticed foreign letters burned into the site of each fire, but no meaning has been ascertained as of yet.
+A smuggler of illegal goods was caught and thrown in jail to await trial. He tells anyone who will listen that he was framed and that the real criminal is an invisible goblin who made him do it.
+A powerful wizard recently moved into the city and erected a tower for him to practice spells. That was all good, until about a quarter of a mile radius from his tower disappeared in an arcane explosion overnight.
+About a dozen goblins halfheartedly run at the town gate, weapons lazily drawn and some dragging. When they approach the guards, they beg to be let in or their orc masters will kill them for their insolence.
+Dueling merchants keep lowering their prices in attempt to steal business from the other. Unfortunately, the low prices caused a brawl to break out in the marketplace and now some rare magic items have gone missing from a nearby stall.
+A new noble has requested court with the royal family to pay respects, but people are suspicious of his servants- golems made of various materials, including flesh.
+A merchant has moved into a run down shop to start selling miscellaneous goods. People are amazed at his low prices and high quality items, until someone realizes that his wares match those that were supposed to arrive on a caravan that got raided coming to the city.
+An outbreak of odd rashes on children in a certain part of the city causes a quarantine, and even their parents aren’t allowed to see them. Clerics are baffled as some of their strongest spells are proving ineffective, though anyone who has reached maturity doesn’t seem affected.
+A entrepreneurial outsider has come to the city to setup a casino, promising profits that would benefit all. People are split on whether or not this is a good thing, but the council is resistant to turn down the money despite rumors of a shady past.
+An actor is murdered during a performance at the theater; it took everyone a while to realize this as they were stabbed in the heart when they was supposed to be killed in the play, allowing the masked killer to escape. All of the other actors, including the one who was supposed to kill them in the play, are accounted for and have alibis.
+A new mercenary group fronting as a guild has set up headquarters within the city and are offering their services to those with enough coin. They claim they will take any job, and few who have dealt with them in the past accuse them of extortion.
+During the night, a traveling circus that was in the city was vandalized, including a cage holding a magical beast; a doppelganger to be exact. The guards urge everyone to be on high alert as the search for the proverbial needle in the haystack commences.
+From out of nowhere the army of a rival kingdom surrounds the city and demands them to surrender. Rather than being led by the old king who signed the peace treaty between the cities years ago, his arrogant son serves as general of the forces.
+A retired necromancer has turned to running a farm outside of the city, raising the dead to be his tireless farmhands. While the animals don’t seem to mind the undead handling them, other farmers question the ethics of this and want the farm closed down.
+One of the largest banks in the city has put out another search to find and sponsor a group of dungeon delvers. In exchange for funding the gear and supplies of a group, the bank wants to stake a claim of any valuables found on their journeys. Seeing as how their last few groups failed to return, some wonder why they keep trying to entice new business.
+After finally being approved by the leaders in the religious district, a priest of an evil god has finally been given the okay to build a temple to their deity. This has started an internal debate of whether the priest’s right to worship should be able to infringe on the civilians’ right to feel safe, and the priest has begun ironically receiving death threats.
+A infamous criminal escaped the city prison last week and the manhunt for them has ramped up. A special inquisition team was put together to find them, but as the inquisition becomes more forceful civilians are beginning to complain about their tactics
+A wizard has gotten approval from the council to open a zoo, featuring a wide array of magic creatures and plant life. He has been met by protesters led by a druid who claim that keeping the animals in a zoo is inhumane.
+Guards can be seen chasing an increasing number of young children around the city after the child steals something of value. In each case, when the child is caught a wisp-like entity exhales from the child’s mouth and the child claims to have no memory of the theft.
+A coliseum has opened, allowing anyone brave enough to enter for glory and gold or meet their end. They claim that they only feature willing combatants, but one man who was to take on a lion screamed that he was a slave before being crossbowed by the guards employed by the owner.
+Recent bandit activity around the city has the guards at the gates on high alert, causing them the screen everyone who enters. This causes a tough time for a few specific races, sometimes denying them altogether for no apparent reason other than suspicion.
+After a particularly rainy week, a grey sludge has risen through the ground and dry, effectively cementing anything within 2 inches of the ground. This includes people, animals, carts, and other fixtures, and understandable people are upset and confused.
+Long-lost treasure supposedly rests unclaimed atop the tallest mountain of the frozen wastes. Many have died climbing, and rumors say that the ghosts of the dead assist those trying to climb.
+Several travelers have been circulating claims that a masked stranger who seemingly floats above the snow has been showing up to help, and then disappearing in a blink. Each person has a scarf that was left where they disappeared from.
+The native wolves of the tundra have been growing increasingly in size lately, some up to three times. A gargantuan pitch-black wolf has been also spotted a few times alongside them.
+An “oasis” in the frozen wastes- a small patch of thriving, lush growth with a noticeable change in temperature- has popped up and is expanding. Its origins confuse the locals, and many animals are now congregating towards it making hunting easier.
+A nomadic tribe native to the wastes have become uncharacteristically aggressive, attacking travelers they would normally avoid and are overhunting game to near extinction levels.
+A village located on the edge of an ice shelf has broken off and is slowly drifting out to sea. An even bigger problem is that they’re headed for much warmer water, meaning they may soon be sinking into the ocean.
+A traveling merchant is selling supposed cloaks of weather protection, but not everyone is convinced. Some claim that they feel even colder while wearing them and find themselves paralyzed at times.
+A blizzard has completely taken out signposts directing people between villages, and the lack of visibility obscured landmarks. Many merchants were supposedly on the roads and their families are besides themselves when they don’t show up.
+A ship has gotten itself stuck in the ice and is requesting help in freeing itself. The only issue is that the ship matches the description of a raiding vessel recently seen terrorizing the area.
+Rumors of “ice trolls” abound after remains were discovered, apparently mauled and eaten savagely. Those who have seen such remains claim they are humanoid while others argue they’re just animals caught by natural predators.
+Large tunnels of ice, too steep to climb down, have been spotted around the tundra. Interestingly, the air coming out of the tunnels is very warm, almost hot even.
+The weather has been erratic, and people blame small groups of wind and water elementals seen fighting out over the ocean. A local mage attempted to calm them, but was rebuffed and scared off.
+During the construction attempts at a central city for the area, a ravine opened up underneath causing most of the city to fall in. People are frantically searching for survivors while looters try to abscond with anything of value.
+Excavators recently found an untapped gold mine deep in the tundra, and are securing mercenaries and workers. People are hesitant to work for the boss, who they say was responsible for others dying in another job.
+An avalanche on a nearby mountain revealed a large, metal doorway previously impossible to see halfway up the trail. Stories of a long, dead god of the wastes abound in the aftermath.
+Waterlogged and frozen zombies have started surfacing from a graveyard that has been buried for centuries. While much slower than normal zombies, someone claims to have gotten frostbite at just the touch of one.
+After arriving in the small town, people urge you to get and stay inside immediately. Apparently a “dagger storm” is coming, in which jagged shards of ice fall from the sky for days, piercing and killing nearly everything unfortunate enough to not find cover.
+A local village has a coming of age celebration for the children, who must hunt down a beast with a hunting party. The chief’s child now must undertake the challenge, and has chosen the last of a majestic species in the tundra as their quarry.
+Supposed knights to the “Frozen King” are seeking an assortment of random items, including pelts, gems, and fish. They are more annoying than anything else, and won’t tell people where they come from or who this “Frozen King” they’ve never heard of is.
+A castle made entirely of ice has popped up overnight, concealing trophies of bones, gold, and other treasures visibly within its walls. The only inhabitants appear to be floating balls of light who don’t interact with anyone.
+Stories of fisherman falling prey to snow nymphs has become increasingly common, especially with someone claiming to have seen one last night. They described them as a cross between a mermaid and an ice carving, with the ability to turn into mist and float.
+A child recently fell into a lake and was recovered minutes later, long after he should have frozen or drowned. He says that when he fell through he landed in a different world full of sand and heat, but those brave enough to dive into the lake have only met the bottom of the freezing water before surfacing.
+Frost giants have come to a town seeking help as they have run out of supplies after their tribe split into two. They claim they will exchange whatever goods and services they have for what they need, but just 6 months ago they attacked that very town.
+People have seen something burrowing just under the ground, leaving trails of displaced snow where it has traveled. Once someone from a higher point of view saw it, they realized it is spelling out words in a language they don’t understand.
+While  digging through the ice of a mountain, excavators accidentally awoke a dracolich, who vowed to make the world freeze in ice for as long as he has. Oddly, he did not directly attack or pursue the diggers, and was seen trying to free the rest of his body from the ice.
+An infamous pirate captain and his crew have recently docked, causing fear and concern for many of the merchants and locals in the city. However, they’ve never broken any laws here or attacked native ships, so the guard refuse to do anything.
+Someone has been stealing from and vandalizing small vessels in the night. The only clues are that the alcohol is never touched and anything red is sloppily repainted to be blue.
+A wizard specializing in conjuration is selling his services to any crew who will take him, promising his loyal water elementals will be in the waters behind them and will help steer the ship and save them from harm. In truth he is a master of illusion looking for an easy payday while really doing nothing.
+A collapse in the streets of the city reveal a hidden underwater grotto with an extensive cave network. City officials are willing to pay for the exploration of the caves after an initial search recovered some long lost artifacts.
+A ship coming into port crashed into two smaller boats as well as the dock, causing severe damage but no casualties. When authorities went to confront the crew, not a soul could be found on board.
+An old sea captain has recently turned up back in town after he was thought dead years ago when his ship went down. When asked about what happened he acts as though he can’t hear you, and continues to mutter about “The Lost Compendium”.
+All the well water in the city has been tainted, forcing people to use boiled seawater. This has caused merchants with clean water to skyrocket their prices, even when selling to the sick who need clean water for medical purposes.
+Several famous paintings and sculptures headed for the museum were stolen off a ship, and clues trace the culprit down into the sewers. Rumors of flesh-hungry, oversized sea life keep the detectives out even as the museum curators plead with them to continue looking.
+Large rocks float like driftwood on the waves, but have the impact of a thrown boulder when hitting ships, causing them to dock. No one has been able to figure out why or how this is happening, but the sailors in town are getting unruly.
+Two ships belonging to noble houses in the city had a minor collision just outside of the port’s waters, and both have returned with different stories of what happened. One claims the other simply rammed into them on purpose, the other says they tried to turn out of the way but purple waters propelled them forward.
+New, strange looking fish followed a vessel back into town and now populate the water. They are tasty and non-poisonous, but the rest of the marine life is being killed as a result of their overpopulation, causing alarm as semi-magical pearls that grow in the harbor are one of the city’s biggest exports.
+All of the wheat and flour coming into the city, regardless of ship or original port, is making people sick. Some claim that it was a curse put on captains who refused to succumb to a sea witch, while others say that they must have angered the goddess of the sea.
+People from a certain foreign country are being arrested as soon as they land in the city, but aren’t seen again. People have heard the guard telling them that they will be held in cells until some clarification arrives, but people visiting the cells say that they’re all empty.
+A dead body was found in the waters close to the port. Strangely, it wasn’t water-logged and the victim didn’t appear to have drowned or been stabbed, but rather badly burned.
+A debtor who loans to ship captains is looking for enforcers after his last few were “dealt with”. Says that anyone who can get his money back from Captain McGregior and his crew can take a share of 20%. Reportedly, Captain McGregior had taken an astronomically large loan from the debtor.
+A strange new ship has docked in port, and all seems normal during the day. However, in the moonlight at certain angles, part of the ship appears decrepit and the flag changes from that of a friendly country to a tattered flag of a long lost kingdom.
+After a large sea serpent that was terrorizing sailor near port was dealt with, activists have been protesting to not hurt any more of them regardless of what they do to sailors. This is causing a large rift between the seafaring folk and these activists, and the local government doesn’t know what to do.
+A ship belonging to a friendly crew of Frost Giants has docked, blocking off most of the port and thus blocking other ships from docking. While the city is glad to have the friendly giants and their amazing wares, people are getting worried since the giants don’t show any sign of leaving anytime soon.
+After docking to refresh their supplies, and ship transporting exotic animals and monsters was raided, and the creatures released! While some of them have been captured, others are still lurking about the city. The captain is offering a hefty reward for any creatures brought back safely and unharmed, while the city is offering a reward for caught or killed.
+A black sludge has been creeping onto the hulls of ships and into the seams. Just yesterday a sailor sleeping inside a ship was found covered in the sludge which had hardened to a cocoon, and those who found him say he his body had started to transform.
+An old man claiming to really be the avatar of the god of the ocean warns the people of the port city to stay out of the sea for the next three weeks, lest they bring destruction to the city. Of course, no one heeds the man and they say that he is crazy.
+People are woken up in the middle of the night to a small naval battle going on just off the coast of the city. Neither ship is native to the port but one ship is clearly flying pirate flags and both are reckless with their attacks, occasionally hitting other ships or buildings in the city.
+After being angered by a reckless crew throwing their trash into the ocean, a greater water elemental has appeared outside the port and has started pulling the water into a massive tidal wave. He says the port has 3 days to make amends before he unleashes the wave upon them.
+A lone merfolk has come to the city, asking for aid of the land people. Apparently their kingdom is under attack by some underwater variant of goblin, and as a people the merfolk don’t keep weapons.
+A ship flying the city’s flag has been set on fire and directed toward the city. It crashed into a beach just a mile south with warnings carved all over it, and the dead crew tied to the masts.
+$
+TAVERN_JOBS
+‘Wanted Dead or Alive – Bonecrusher, Orc Chieftain to the south! Warning: very heavily armed and dangerous. Has many henchmen. Reward: 1,000gp’
+‘Missing: a large turtle named Hubert who has escaped from the Caster’s School of Polymorphing. Please return if found!’
+Chicken Wrangler Needed! Some jerks smashed my coop and now 100 chickens are loose. 1GP/chicken to return them, no questions asked.’ (Poster is True Neutral witch in old haunted forest; all the chickens have been enlarged.)
+Need men to form a small honour garrison for the banquet I am holding in my manor. Important people are involved, so discretion is mandatory. 200GP per person, payed upfront. No questions asked. (All the guests are vampires.)
+The book store has a shipment of rare books coming in and needs people to help unload them. Will pay 100gold per person and not responsible for any injuries incurred on the job. (Caution: dangerous magic and pet books around.)
+Exterminator needed: I’ve got a mess of rats in my basement. Bring me 10 rat tails in return for payment. (Listed address has no basement and owner has no rat problem. The advert has a typo and should point to a house further down the way.)
+Exterminator needed: There’s a bunch of noise coming from the attic. Like chains or moaning or something. It’s probably those damn raccoons again. I would have my husband look into it, but the lazy oaf up and died on me. Payment dependant on work done. (Listed address has no attic, but does have a basement with a rat problem. Murdered husband is haunting the house, bring proton pack.)
+Strong Swimmer Needed! My simpleton apprentice left my ore cart unattended on the bridge and the blasted thing tumbled into the river! Hopefully the ore is still in there somewhere, I’ll pay gold to anyone who can get me my ore!
+Sick Grandmother: My grandmother is sick and needs a shipment of medicine. Our normal courier has gone missing, so we desperately need it delivered. Expedited fee available with a bonus upon delivery (Grandma makes a mean elven bread.)
+Squirrel Hunting: A squirrel has been seen in town stealing jewelry from citizens. We think there may be more than one squirrel involved — they always head west after the theft. They need to be captured or killed; a bonus available if stolen items are returned.
+Earrings Stolen: My wagon was robbed by bandits in the eastern forest. Among the items taken where heirloom earrings that were given to me by my mother. Please find them. Reward available.
+TEST SUBJECT NEEDED! We at the Barrington Bakery (insert your own name) are looking for subjects to test out our new magical breads. We infuse magic into the mixing process for a, hopefully, tasteful bread. You will need to taste each bread, and have our scholar review the side effects. You will be paid per day.
+Lost Arrow: While practicing with a bow, my son lost a trophy arrow (he was not supposed to use). He was practicing in the Northern plains and thinks the arrow went into the forbidden forest. Please retrieve this arrow. As an alchemist, I will pay in healing potions.
+Goblin encampment: A goblin encampment has appeared in the Southern part of town across the ravine. They’ve been there for days and don’t seem to be aggressive, but we can’t be so sure. Find out what they’re doing — if they’re a threat, please dispatch with them.
+Wandering Skeleton: Wandering Skeleton seen on the outskirts of town. It appears armed with a sword, shield and horned helmet. Dispatch this skeleton and we’ll offer you 10% off anything in town.
+100 List: Help! Local bard needs assistance creating a list of 100 dirty jobs no one wants to do. A small payment will be available as well as your name as a contributing author in the book I’m writing.
+Kobold Flour: Local baker seeks Kobold Flour for the upcoming Monster festival. This specialty item can only be found in Kobold encampments. Will pay 10gp per pound (maximum of 100 pounds).
+The (Insert bar or inn name here) is looking for a bard to entertain the crowds on Thursday Nights (mug for a copper night).
+Merchants looking for armed security to escort us to (Insert town or city name here).
+(Insert townsfolk name here), our beloved mushroom forager, has not returned from the forest. He was last seen four days ago. Need help finding him(her?)!
+Lost mail! Important documents might have been intercepted. The currier I’ve been expecting has not arrived. Please inquire at the City Hall.
+The town of (insert neighboring town) has challenged us to our annual match of Shinty (or similar sport). Let’s show them who’s best, and get that trophy back where it belongs!
+Lady Clarissa will read your future in the cards. I know you will show up. Where am I? Don’t worry, dear. Fate will guide you.
+The Imperial Army needs your skills! Join us to fight the good fight!
+Koboliam Ore Needed: A local blacksmith needs Koboliam Ore, which is only found in the Myriad caves to the North. Once a Kobold stronghold, this abandoned cave is full of traps and possibly other dangers — will pay top gold for each block of Ore.
+Burial Escort needed: Our recently deceased father needs to be buried in the family lot, six miles north through the badlands. A small party escort is required in case of trouble.
+Bandit Kidnappers! Our beloved daughter has been captured by Bandits! They have not made any demands, but we want her back. They were last seen Northwest of the old tower — a reward for our daughter (alive), plus a bonus for the head of each bandit.
+Family Bandits! My son and his two friends have left the village to become bandits. Find them and teach them the error of their ways. Reward if they return — must be alive.
+Kubo’s Strings: Local bard Kubo lost his musical strings during an encounter with a small dragon. The dragon has the magical strings attached to it’s teeth. Please retrieve the strings and you will be rewarded with a +1 AC enchantment to your armor!
+Flying Monkeys: During a recent storm, Flying Monkeys came and took our poor family dog. They live in the Julliad mountains. Please bring back our precious dog — our children are lost without them. We don’t have much in money, but as farmers we can reward you with rations for all your travels.
+Magnificent Seven: Our villagers overheard bandits who plan on raiding our town in one week’s town. We seek seven or more strong warriors who will help defend us.
+Troupe of traveling bards need a few strong individuals to help schlep and set up our equipment on our world tour. Can pay in booze and lodging.
+Detail-oriented individuals needed to go door-to-door to market my magical floor-sucker-cleaner. Commission based.
+Need young fit person to shovel snow from my walkway (if high summer. In winter substitute with ‘mow grass’ or something else appropriate. Employer is an elderly individual from a far-off land who has enchanted their property to be more like their home country.)
+Book keepers needed! Not really. Bandit-wizards have been trying to steal from my personal library of arcane books. Need tough, preferably illiterate, bodies to defend collection until I can secure safer storage.
+Tower Demolition Sought: The four story bell tower has been deemed by the city council as a stain on the communities reputation, as it was built with “ill-gotten” funds by the rencently disgraced and now former mayor, Cornul Glassen. The council is offering 500 gold to anyone who can reduce the bell tower, which was dedicated in his honor, to rubble without loss of life or other property in the town square. Plans must be approved by council before work can begin.
+Come join us for the first annual bucket festival! Bring a bucket and you favourite drinks to join in the festivities. Meet out back the delapited house on the edge of town at any time. You know the one, you’ve seen it in your dreams.
+Needed bartender. Looking to employ a bartender for my inn, The crooked arrow. Must be able to listen to political rants on the slower days. NO GOBLINS
+The well water has started tasting funny, someone should look into that.
+LOST Young boy named James, he has been missing for over a week and was last seen going of to play by the river. Reward if found.
+Local spell caster looking for lab “assistant.” Intelligence not required, but a high resistance to pain appreciated.
+Mole Dispatch – a group of unusually large moles wreck our fields! We are in dire need of a someone who is getting rid of those pests. Payment in gold or products from our farmers market.
+Sheep Numbers Dwindling – We don’t know who, or what, is killing our sheep, but we cant ignore it any longer. Over the last three months, we found several mother sheep and their newborns dead. We offer 10 gold coins for whoever finds out what has happened to our lifestock and ends this from happening again. (A were-sheep has been killing the other sheep, can be found out when the heard is observed, all sheep go away when this particular one comes close to them, or when the transformation happens during a clear moonlit night.)
+A notice to those on hard times that the mines are hiring, the tag line on the bottom says “We’ve cleared out the danger that once struck our mine and threatened the safety of the miners, we are confident that resuming our operations shall be fruitful and safe for all.” (Underneath that is a hand written note directly under the text, “So much for your confidence.”)
+Deal of a lifetime! I’m willing to trade a lovely tin pot, painted with cornflowers and lilies (and showing a few holes, true, but that’s a plus, for you can add a few more and look at that, you’ve got a colander) for a cart. The cart needn’t be big, can even be tiny, in fact, just so that two, or better four, people could fit in it, with ample room for bags and sacks, if possible. Could be old, long as it rides well and has new wheels, and strong axles, so actually probably nothing made longer than a year or two ago would do. Leave a message with Bohddie.
+Cleric needed – Daughter Ill and Dying (A local father is worried because his daughter’s health has been rapidly declining. He needs someone with knowledge of medicine to determine what kind of illness… or poison or curse… is affecting her.)
+Adventurers needed! Our Kobold in our previous adventuring party is currently missing and is in possession of an ancient and dangerous artifact. Problem is, he ate it. Please return the artifact in tact! The Kobold (Skrazz) can be returned dead, alive, or not at all for all we care. 1000 GP Reward.
+Multi-Linguist Needed: While going through my pappy’s attic I found this really old map that I’m pretty sure leads to something cool. The problem is, I can’t read it! Pretty sure it’s Celestial, Draconian or Elvish cuz the letters are all curly. If the map leads to some sweet treasure I’ll share it fairly with you!
+Taste-Tester Needed: Lord _____ needs a qualified taste-tester for upcoming banquet to fill recently vacated position. Benefits include All you can eat food and drink, provided medical care, lodging and pay-per-taste. Dwarvish candidates preferred. Inquire at ______ Manor.
+A Muse-ment Please: My brother, the head writer of our musical comedy duo is in a rut. He hasn’t been writing any good jokes for a while and I just can’t play backup to another lukewarm song like “there’s gnome place like home”. He needs something hilarious and inspiring to jump-start his creativity again. I’m taking him to the _____ tavern tonight for drinks, and if you manage to orchestrate some weird and hilarious scene I’ll pay you 10g. (by the way, don’t tell him I paid for this, just say I owe you money or something I don’t care) -Billie Doobie
+FOUND: Stange child’s doll. Blue gingham dress, yellow yarn hair with blue satin bow, made of painted wood. Eyes are large and very lifelike, seeming to follow you around the room. IF YOU RECOGNIZE THIS DOLL PLEASE COME AND TAKE IT I’LL GIVE YOU 5G. -23 Wyverann St E
+LOST SHORTS: please, this seems silly, but recently my favorite lucky shorts have gone missing! I’m sure someone stole them but I have no proof. I need them before the big poker tournament tomorrow and I will pay 100g to whoever finds them! They are purple with green polka-dots and the back pocket has a recently-patched up rip. Also my name is written on the waistband. -Marty Martingale, #4 Lake Park Ave. E
+WHO AM I?: I woke up in a gutter this morning outside of the Hill Street Inn and Tavern. I do not remember who I am, where I am from, what my name is, anything. I have a large sack of gold on my person and I am currently renting at the Hill Street Inn and Tavern for the foreseeable future. If you assist me in regaining my lost memories I would be more than happy to properly compensate you, for it seems that whoever I am, it is a man of means.
+Local Tavern needs (at least one more) bouncer for annual all-you-can-drink QuaffFest Celebration tomorrow. Usual bouncer called in sick and can’t make it. Will pay 5s/hr and after your shift that evening all your drinks are free!
+BARD EXTRAORDINARE: Art is the purest expression of the soul, and no-one expresses themselves more eloquently than Clover Salvatore, the hottest Bard to grace the realm. The Golem Guardian newspaper has called him, “A fresh voice, Clover Salvatore will wow your tavern with his genre-bending style, and witty lyrics. A star in the making”. Send a pigeon and book him in now!
+FIRST CLASS MALE: If you need a message that needs delivering, look no further than this First Class Male. With reasonable fees and lightning quick delivery, it’s not just the devilishly handsome good looks that make this the best way to tell someone you care. Speak to Dorian for more information.
+Help wanted t’ return me property: Yesterday some o’ th’ young neighborhood scalawags stole me carved wooden leg while I were pissed in th’ gutter outside th’ Salty Strumpet. I can nah chase aft them t’ git it back ’cause me backup leg be mor’n ghastly. If’n ye can get back me leg I’ll pay ye 10 gold, it holds a lot o’ sentimental-type meanin’ t’ me.
+BIG AWARD MONEY!! Near forest there is cave. In cave small monster. Need help with monster. WILL AWARD BIG MONEY!! (A barghest’s trap, prepared by goblins to lure adventurers in and devour them alive)
+Someone stole my chicken that lays all sort of metal eggs. Help me find it.
+My Family is about to find out about my secret. Good liars and problem solvers in need.
+The bridge collapsed again and I lost my wagon. Will pay good gold if bridge repaired, and more if wagon retrieved. Contact Arkwright’s village store for reward. (Twist: Goblins have been booby trapping the bridge to steal the contents of wagons.)
+What up? We’re three cool guys who are looking for other cool guys who want to hang out in our party mansion. Nothing sexual. Dudes in good shape encouraged. If you’re fat, you should be able to find humor in the little things. Again, nothing sexual.
+Missing pet! My pet has been missing since three nights ago and has not returned home. If found return to , whoever finds him will be rewarded greatly! (Twist: the missing pet is actually a small dragon.)
+Need basilisk eggs for experiment! Big reward!
+Missing: One (1) semi-intelligent skeleton. 5 feet 10 inches. Last seen wearing blue cloak. He was sent to the market for some groceries five days ago, and hasn’t come home. His creator misses him very much. 50 GP & four (4) Stones of Farspeech upon return.
+Love of my life! Please, I need your help to make me look cool in front of the love of my life, so that I can win her heart! I could never hope to win her by normal means since I’m poor. I will give you all of my life savings in return. Bonus if you look scary! //DM note: The plan is to have the players perform as crooks flirting and trying to pick up the girl and in turn be chased away by the contract giver to make him look cool.
+Need to make silver quick? Why not platinum! Rent doesn’t pay itself ya’ know! Find Raul Sonderheim and ask him how you can become your own boss and never have to work a day in your life! (Can be a quest to thwart a predatory pyramid scheme OR be the starting branch in a murder investigation once Raul is found murdered, likely by one of the people he recruited.)
+WORK FROM HOME: Easy money that anyone can do! Finally live your dream lifestyle! Be your own boss! Make thousands in your first week! Retire early! Don’t be left out!
+Open minded and discrete healer wanted. Must interview.: Despite the suspicious wording, the job is treating people from discriminated-against ancestries or with embarrassing deformities that have been persecuted, passed over, or financially exploited by other healing organizations. The pay is low, but you make solid allegiances. Word of your kindness spreads among the hidden downtrodden and you may find welcome far away.
+Sales assistant wanted. Incredible pay!: It’s a multi-level marketing job. The job poster gives you a sales talk about their wonderful liniments and gizmos. They do work, but they are overpriced. You have to make a bulk purchase of the items and then try to resell them for a profit. You are unlikely to find the buyers needed to turn a profit and are stuck with too much stock.
+Horsebreaker needed! Inquire at the Post Office! The job is preparing young horses to accept the saddle and harness so they can be ridden or pull carts. They must also be taught basic commands and gaits. The job is successful if the handler can get the horses to calmly accept riders and obey simple orders.
+Do you think you know your gems? A grand test awaits at Nappe and Klippe’s Emporium. Only those who truly appreciate mines and minerals should apply! A local jeweler’s outfit acquired a large stock of specialty mineral samples and gems from a flash sale of unclaimed shipments. They need them identified but want someone, preferentially a dwarf, who isn’t going to undersell them. The first part of the job is a basic knowledge test and then they move onto the unusual samples. They pay in wholesale gems of the player’s choice.
+Music tutor: My son Stevie wants to be a bard, but the kid has absolutely no talent. I want to enjoy my time at home without the shrieking of his horrible electric lute destroying the peace. I’ll pay you 10g to give him some lessons, and if after a couple his “Music” becomes less painful, I’ll give you a 100g bonus. Contact John Harris at 75 Leyton Ave.
+Help! My mother-in-law is coming to town for a visit and I need someone professional to inflict me with some awful disease or other affliction so I have an excuse to stay in bed and not interact or be around her. Please no afflictions that cause perminant damage or death. Mildly life-threatening ok. Meet me at 10pm behind that bar that smells like old goat. You know the one. 50g upon disease delivery.
+Help recovering property! This is your local bard Razzle, and if you’ve seen me lately you know that I haven’t quite been myself. The truth is I lost my prize peacock feather hat in a wager at the Lusty Mermaid two days ago. The man who won it from me said I could pay him back for the value of the hat, but when I went to the inn he was staying at I found he skipped town without even paying his tab! (And I found out he cheated at that game of cards by the by) Please, I need a skilled ranger or another who is good at tracking to get back my hat! I’ll pay you 4,000 gold to go with me to get it, and I’m willing increase the price to 5,000 if our quarry proves elusive.
+URGENT: It is my little pookums birthday and the entertainment cancelled! Anyone may apply as replacements at the magistrates estate.
+NEEDED: Someone competent in the ways of word to berate, yell, and speak ill of me. Willing to pay. Discretion is key. Meet me during the night 2 alleys up from the pub in order to discuss terms.
+LOST: 3 peg legs, a hook, 5 eye patches, and a talking parrot. If found please return to “The Luckiest Crew” down at the pier.
+HELP WANTED: Poor old widow requests the assistance of any strong and able persons to rearrange some furnishings. (She is a witch in a small town of elderly folks that help her trick strong strangers in order to preserve their own lives.)
+MINIONS NEEDED – Local Lich Looking for Less than Lawful Lackeys. References not required, no paladins. Full training and benefits given.
+Fence need painted. Good pay. Contact Sythi at the Inn. Twist, the fence is 10 feet tall and almost a mile long.
+ISO: Skilled toymaker, it’s my daughter’s birthday and she wants a teddy. I can compensate for any materials you use. This was posted by an orc and her human husband, there’s an address near the bottom with a smiley face. The 6-year old half-orc wants a GIANT teddy.
+IN NEED OF DURABLE IDIOT, WILL BE WORKING WITH IMPOSSIBLE GEOMETRIES. IDIOCY NOT NEEDED BUT DESIRED. BRING FRIENDS. snacks provided! (This was wrote incredibly hastily by a desperate wizard, and his wife. The words “snacks provided” are in much cleaner handwriting toward the bottom, obviously added as it was being posted.)
+My brother an me want candy!!! (This note is barely legible and is tacked at the very bottom of the board.)
+Hey, we’re having a party and we need booze. Bring any and all you can carry. (Posted by some broskis at the wizard college. There’re about 200 in need of whatever alcohol they can get their hands on.)
+Having trouble stocking all these books! Will pay for some big and strong people to help me! (This was posted by a small old woman who owns the local library.)
+A set of seemingly innocuous symbols is carved into the side of a barrel underneath the board, all in Thieves’ Cant. The symbols are being used for a purpose they’re very much not meant for, and the message is patchy and uncertain. “Dangerous Area.” “Owner not home.” “Owner is Vigilant.” Meaning: One for the rogues! The local thieves’ guild has found that their missions in the area have ended… poorly. Their new recruits are raving about some kind of spirit, and the veterans insist that something just isn’t right.
+Need demolition help: A demolition company is looking for outside help to clear out and then tear down a vacant house. The reward can be money or allowing the players to scavenge what they find inside the house. (What the company doesn’t tell the adventurers is that no one will do the job because of the powerful stench coming from the house. Exploring the house reveals a locked(mechanically or magically) wooden door leading to the basement of the house. The basement contains 1d4 Dretchs accidentally summoned by the previous owner.)
+Mimic hunt! Mimics are running rampant throughout the town. Find and kill 2D6 mimics. 1-6 mimics gets 100gp, 7-11 gets 300gp, and 12 kills gets 500gp.
+Being followed by crawling claws. Kill 1D4 crawling claws. Reward of 40gp.
+House is overrun with rats. Exterminate 4D10 rats and 2D4 dire rats. Reward of 450gp.
+Help find my lost pet cat! Reward of 3D10gp to anyone who finds him.
+The baker has put out a poster, looking for someone to deliver pastries to the mischievous yet kind faeiry dragon that watches over the town from its lair in the woods outside.
+Looking for riddle maker. You make riddles, we buy ’em! For more information contact your local Wizards Association.
+WANTED: Internship with seasoned adventurers. I’ve admired heroes all my life and want to try my hand at it! I’m hardworking, loyal, and a team player.
+Victimless Instigators of Loot Extraction is seeking henchmen for transportation of merchandise. Some risk is involved. Must be capable of intercepting and stopping pursuers. If interested, head to Church of St. Deegho and ask for Carmen.
+Help! My good friend Smolik Droweater has been trapped! My scrying reveals he is stuck in a 10-foot room. He has a chest of valuables with him, but needs help getting it and him out of the dungeon safely! Come to the Tower Tisential if you are willing to help! -the Wizard Quinn.
+Seasoned adventurers needed! Writer/Bard here, tell me the tales of your great adventures, I need some inspiration for my books/songs. Payment will be determined by how good your stories are.
+Just bought the old mill outside of town. But there’s something living in it (make something up). Will pay 50GP and free milling service for a year to anybody who clears out the infestation and makes it safe for our family to set up!
+Help settle a minor dispute between two noble Elven houses! House Alendrian is looking for adventurers to help draw the domain lines with the House Walopez border. If you are strong of arm and fleet of foot, inquire at the Dovestail Manor.
+$
+SIDEQUEST_HOOKS
+A farmer approaches the party and needs help. One of his chickens turns a strange neon green when placed in moonlight, and he needs help figuring out why.
+Your party finds a list of 10 names including someone they are close to. The first 4 names are crossed out.
+A courier catches up to the party. They have been left a run down mansion in the will of someone they have never met. The only condition? It be lived in for 5 days. It is of course… Haunted!
+A well known constellation disappears from sight. The village is divided between people who remember it, and those who don’t. The debates begin to spark an escalating series of feuds and fights.
+A large river begins to inexplicably stop for 1 hour before sunset.
+You enter a clearing where 2 duelists lash out at one another. The clearing is in a time loop, repeating the duel over and over again.
+Rumor reaches your ears of a traveling merchant peddling sets of cursed sewing needles.
+Old Jeb the farmer claims his sheepdog had puppies, but they all have split tails and he doesn’t know their sire.
+The sawmill catches fire. The bucket brigade keeps it contained, but it refuses to extinguish after 2 days.
+For exactly 1 round a day, everyone in town falls sway under the HOLD PERSON spell. Life continues, but everyone is on edge. “Protection” totems begin surfacing in every market shop.
+Strange, mud-coated animate skeletons have risen in a nearby swamp. They won’t attack unless attacked first and try to speak with anyone nearby, but the coating of mud makes their speech indecipherable.
+Snowberry bushes only bloom before a blizzard. Collect five snowberry blooms for an alchemist before the storm hits.
+A suit of enchanted armor with dozens of arms has been razing nearby villages. Watch out, each arm holds a hand crossbow, and each one can attack every turn.
+A goblin comes running towards you and yells “he’s coming!” and dies.
+A small pack of wererats have taken up residence in the city sewers, and keep causing trouble for the locals.
+A farmer says he’s heard strange singing in the night in his corn field, but whenever he goes out to look, he doesn’t find anyone. If that wasn’t strange enough, one morning he found his scarecrows had been moved into a circle.
+The party is told of a local merchant who specializes in Magical items. The merchant’s name is Foezek and is described as an intelligent, compassionate Shedu. But, when the PCs seek out the shop, they find another being claiming to be Foezek and is more interested in them leaving the shop than dealing with them. In truth, this bandit killed Foezek and is dealing his magical items to an adversary of the DM’s choosing. Foezek’s body can be found in the shop (basement, or behind the counter, etc.).
+The party is walking through a town when they meet an blind old man who is crawling on the ground looking for his ring. A guard watched him drop it and took it for himself.
+The party finds a dagger on the body of an enemy that is much heavier than a dagger should be.
+The party wakes up mixed up in each other’s bodies after night of drinking at an inn.
+A small chest from the spell Leomund’s Secret Chest falls from the sky. When the party finds a wizard to open the chest is filled with their own equipment, along with a note book keeping track of their actions.
+The party continues to wake up in the same inn, but different rooms each morning.
+One of the party members is suddenly extremely allergic to cats, the rest of the party members clothes are suddenly made of cat fur. The change in clothing isn’t immediately noticable.
+The party is summoned by a king to be his friends for a day.
+There is a bounty out on the dish breaking bandit.
+One of the party members suddenly starts to sleepwalk, and breaks dishes in his sleep.
+An angry gnome tinkers with the sleeping party’s equipment. Everything now has combination locks.
+Weird noises have been heard at night coming from an older resident’s home in town. When investigated, you discover a worried old man attempting to disguise his worry at your interest in the noise and his business. If convinced that your aid is genuine, or if more discreet measures of observations are taken, you discover his wife is afflicted with lycanthropy despite having no bite marks.
+The local towns people are complaining about a goblin tribe that has set up camp near by. They are acting strange and have begun constructing statues of a goblin with a pointy hat all over the area.
+As the party is walking through a road they come across a beggar. He is crippled and asks for some money to help him buy food. As the party continues to walk down the road they find another beggar who looks exactly like the one they just met! When asked he says that he doesn’t have a twin brother or anything of the sort. He doesn’t know what the party is taking about and just wants some coin to buy food. As the party continues to walk they find the same man yet again. He to knows nothing. Upon further investigation they discoverer that the man was once an assistant to a local wizard. And the wizard is an expert in human cloning.
+The daughter of a local politician/Noble person keeps getting kidnapped by local goblins. The party is hired to solve it once and for all.
+A horse with no rider, but fully equipped is walking in the opposite direction of the party. There is a note pinned to it’s saddlebags, “send help!”
+The party takes a shortcut through a friendly looking forest not shown on their map. It seems oddly silent, and soon notice all the wildlife is deep asleep – including insects and even flowers. As their eyes get heavier and heavier a wild man bursts out of the bushes, eyes propped open.
+Traveling through the forest the party is stopped by the sound of a booming voice nearby “Your Wish has been granted!”. Shortly after they come apon a clearing filled red mist and a goblin holding a brass lamp laughing maniacally. The party now has to deal with what stuipd thing he has wished for.
+You are confronted by a party of identical adventurers, who seem more surprised than you. They have been tracking you down for a long time, following rumours of a party of adventurers giving them a bad name. Worst of all they seem to have been adventuring longer than you…
+Construction of a new museum has been halted when its found that all the workers continue to forget what they’re building, could the new exhibit be to blame?
+You’ve gotten word about a logging village up north that has put up a massive reward for any adventurers willing to travel to the village, investigate the rash of disappearances and locate any of the missing persons: dead or alive.
+A cranky old man in town complains that his pocket watchers stolen, and he has his suspicions on who the thief is. The townsfolk say that he’s a senile old man who probably lost it.
+As your party steps through town, you suddenly start to feel the ground shake as a group of Monsterous Centipede’s erupt from the dirt, attacking the party. As they are defeated, it becomes apparent that they were summoned creatures.
+One of the party’s magical or valued items has been stolen and is now held in a high security bank in a bustling city. The party must now break into the bank to retrieve their items.
+A farmer asks for help. His crops are constantly getting trashed. He wants the group/player to keep watch over the night. It ends up being that the poor farmers’ trusty scarecrow has been brought to life by dark magic. It is optional to buy or make a new scarecrow.
+A PC gets bit by a werewolf. There is a cure for it, however they must convince the mad wizard to give it to you.
+A passing man swears to you that he is a genie who will most definitely grant you three wishes if you return his stolen lamp to him.
+Every town or settlement the party goes to has an outline of a fish stenciled on a main building. The first one is really big and noticeable; the rest are subtle enough that the party won’t see them unless they announce that they’re examining the place. The town where the quest will happen has the WORD “fish” stenciled on a building.
+You come across a trail of blood (unicorn) leading to a spooky forest.
+The party is followed by an owl, hooting softly, eyes glowing the gentle yellow that might be magic or might be simple reflection. Over the next several days more owls join, until when the group sets down to sleep at night all they can see are hundreds of owl eyes staring down at them. Then, one of the owls scratches a message into the dirt, before flying off into the night- FOLLOW.
+An unknown NPC mage has dimension doored into the middle of a fight, after all healing spells have been used by the team. He/She is on death’s door and carrying a note with his/hers killers name. He says a few words before dying.
+Graffiti is scrawled on the walls of two buildings in town. It appears to be some sort of code. The messages are marked “1” and “3”. Message “2” is nowhere to be found.
+A scrap of paper floats on the wind. It glides on the breeze. Eventually in a gust the paper catches on one of the adventures faces. Tearing it off their face, and looking at the parchment they see it is…
+Gold! Adventure! Fame! Cries an elf on a soap box, “the faint of heart need not apply!” (For adventures who need more than obvious plot hooks.)
+Looking off to the distance, they can see a flashing light (similar to a signal mirror). Someone is trying to signal far off. Whether it is aide, is indiscernible to the group as the light stops almost as soon as it starts. There is only one way to find out…
+While passing by a pond, you hear a deep bellowing noise, only to see a fisherman trapped by a giant frog. He calls for help.
+A paladin with the insignia of a lion’s head on her shield asks you to solve the local pest problem. Turns out the “pests” are full sized orcs.
+A house outside of town is being circled by hundreds of birds. Upon approaching, the party sees that their beaks are lined with teeth, and the birds are twitching as though trying to escape possession. From the sounds inside, someone is clambering to hide within the building.
+Kobolds have been attacking the town. All wearing similar regalia and a matching symbol. a raving man claims to have escaped from the kobolds’ lair. He describes a terrible dragon as the source of worship for the kobolds. The dragon is really a pseudodragon with delusions of grandeur, trained in illusion magic and has duped the kobolds into gathering a hoard for him.
+In a large city, urchins are a regular problem. This trio of kidlets, however, has been luring travelers in to abandoned alleyways, where the deranged doppelganger among them eats the human and the other two children keep what was it his/her pockets.
+A dryad clad in wooden armor leans against a tree his side torn wide open. He hands the party a pouch full of tiny leaves. Taking a pinch and blowing them into the air will lead the party to an ancient temple entrance almost over grown with vines. When close the pouch of leaves crumbles to dust along with the vines covering then entrance of the temple.
+You find a small silver coin in the middle of a street and upon picking it up, in your mind you see a small hut deep in the forest. When you come back to reality, only you can see it but a small fae pixie glowing bright blue will show you the way.
+The party encounters a man running out from the wood-line, coming towards then. He appears to be in shock over what he has seen, and tells the party that he was attacked while hunting. The man directs the party to the spot were he encounter the creature.
+A local temple has reported strange events in the surrounding area: beasts attacking villagers, bandit lords more closer to the village, and mysterious lights and sounds that can only be observed from within the village.
+A bounty hunter asks the party if they known any of the names on a list of his. The list contains about 20 names, roll a d20 for the characters knowing any of the names, 1-10 unknown and 11-20 known. The names on the list can be from characters backstory or names of NPCs the party has met throughout the campaign. The bounty hunter will known what each person on the list as done, and how much the reward is for the capture.
+A seemingly exorbitant amount of gold is offered on the message board to get rid of a ‘house spider’. It turns out that it’s about a spider-like mimic in the shape of a house.
+The moon stops traveling across the sky, and everyone’s time pieces stop working. Word around the continent is a group of warlocks are attempting to gain power from a new patron – the god of Time
+More than three people in a given town have all their teeth fall out at the same time
+A nearby civil war is raging, and one of the high ranking officers of one side or the other holes up in a cave. If approached, they will act incredibly defensive. A child is crying somewhere deeper in the cave, and this person refuses to answer any questions about said child.
+An allegedly crooked officer of the law is found dead in an alley way and only one person in the whole town seems to care about it at all.
+The party is on a faire where a magician is performing tricks with a severed head that can talk. Throughout the show the head blinks in weird patterns. The party talks to the head to find out he is kidnapped and begs for help in finding his body back.
+The party comes across an Inn in the middle of nowhere and they decide to stay. They wake up on the ground where the inn used to be and there’s no sign of any building ever being there.
+Walking through town, the party suddenly gets surrounded by the city guard. A respected captain was murdered. Witnesses say they saw someone looking similar to one of the party members. Upon looking through their things, said member appears to have lost an item easily traced back to him (one half of a pair of gloves/earrings/daggers, family insignia, one of a kind necklace etc.). Sure enough, said item was found at the scene of the crime. Someone is framing them. Not necessarily a doppelganger.
+The party stumbles across a dead old man. Amongst his meagre belongings is a thick tome with extensive records about everything they’ve done right up till today, with even more detail than they themselves knew.
+The party finds various dead animals with missing pieces, almost torn and shred. As they approach the heart of the forest the number of dead creatures increases. Upon investigation they find out it’s the guardian spirit of the forest who has been corrupted and it’s confused.
+A flyer appears in the sacks of each party member. A mid level demon has opened a store and invites all those with ambitions to visit to make deals.
+A rumor reaches the party’s ears of a group of brigands hiding out in the woods. They have a code that is the reverse of Robin Hood and his Merry Men: Steal from the poor, and give to the rich. None of the local nobles seem interested in the pillaged goods of their subjects, and are constantly giving back the loot they keep finding on their doorsteps.
+The local apothecary is desperate due to the sudden absence of all the local medicinal plants in the area. All the groves and clearings appear to have been picked clean, and even the owner’s secret garden is now empty. She had told no one of her hidden garden, and so has no idea who or what could have taken all of the plants in the brief period of time between her most recent check and her previous one.
+A human peasant and a member of the fey came across each other in the woods and, over the course of multiple moonlit encounters, fell deeply in love. The peasant’s family has a deep-rooted fear of the fey, and is actively trying to put a stop to the pair’s relationship. The family is even more fearful that the peasant will leave for the Feywild and never return, and goes to the party to convince them to help break the two lovers up. The human is in love with the Fey’s otherworldly allure and sharp wit; talking to them makes the peasant feel alive in a way that they’ve never felt before. The Fey was originally only interested in the concept of a secretive human lover, but eventually came to love the peasant’s dedication to their relationship despite the risk of alienating other loved ones.
+While at the market waiting for another adventurer to arrive, you pass the time by idly counting the number of stone gargoyles mounted on the town hall. There are fourteen, all with a silly grin.
+While at the blacksmith to repair your armour, you overhear the blacksmith explaining to his apprentice to not stray off to the hills to see his new sweetheart because he heard from the baker’s cousin’s stepmother that there are kobolds about.
+While waiting patiently for your turn to see the Bishop, you get your ear bent by some local shopkeeper about how the town council is a bunch of idiots, and how they simply wasted all that money on getting 13 gargoyle statues erected on the town hall. Thirteen! That’s an unlucky number!
+A street urchin attempts to filch your purse, he runs off down an alley. The urchin escapes, but in the alley you found a homeless halfling bum. Clearly dead. Looks like he fell from a great height.
+The price of that foreign wine you like so much has tripled in price. The barkeep mutters something about pirates. The barkeep explains it’s just a euphemism for the wagoneers guild and their extortionate ways.
+A dead homeless halfling found in an alley had a small bottle of very cheap whisky. The label has a brand mark you’ve not seen before – 4 vertical slashes and 2 short slashes across the bottom.
+The pommel of a sword you found on your last adventure rattled loose. Inside you a scrap of parchment with lots of scratchmarks, almost looks like writing.
+A wanted poster has been nailed up – Wanted: Black Pete, for Brigandry.
+The scribe you made inquiries with last week has got back to you. She says the Tomb of Three Chieftains can be found outside Millthorp.
+While at market, you saw three wagons being carefully guarded by scruffy and shifty looking mercenaries. There are barrels of cheap rotgut in the wagon.
+A pilgrim accosts you in the street. He asks if you’ll be travelling east anytime soon.
+The bakery has no cake. He explains it’s because there’s a shortage of milk.
+A patrol of the Kings Guard rode fast down main street. They almost ran you over.
+There’s a parade of pilgrims on main street, heading for the commons. They appear somber and morose.
+Southbridge, just outside town, has been closed to traffic due to disrepair. Merchants complain about the 2 hour detour they now incur by first heading east.
+The town guard are seen practicing new drills on the common. Apparently a local bandit has enlisted a wizard, and so training in avoiding fireballs is called for.
+The local priesthood is paying gold for water collected from the Opal Caves to treat a spreading fever
+An apothecary will pay for certain herbs growing in the Frog Marches.
+The local Stonecutters Guild are not petitioning for work contracts; labourers are grumbling.
+A frost giant approaches the group. The giant politely asks for help. He lost his pet owlbear and needs help finding it. He promises a very handsome amount of gp as well as “a powerful ally” if you find the creature.
+A goblin in noble clothes crashes through the window and rolls over the ground. The symbol of the king’s guard is embroidered on his half-cape. As he gets up, he panics and looks around, fixing his eyes upon the party. “The Goat-Riders are coming! Please, hide me!”
+A large burly man has started a daily ritual of throwing a goat at the side of a local noble’s house. He is not damaging the house, so he is not doing anything that will make the local law enforcement arrest him, but the noble wants him dealt with, and will pay you to get rid of him, however.
+A sword in the stone can be sensed by all creatures in the land with “Detect Magic” but lately it seems that the presence is becoming overbearing. Magic users are worried that unless the true king draws the sword, proving his lineage, or the spell “Detect Magic” will become obsolete.
+As the group walks through the forest, one member hears very quiet crying. The crying is coming from a lost juvenile harpy. It is the job of the group to protect this harpy. They can either keep and raise the creature, or return it to its mother.
+The party finds a smouldering crater containing a metal wreck. Inside, they find an eccentric kobold who insists she has returned from the moon.
+$
+ITEM_CATEGORY
+Potion or Oil
+Ring
+Rod
+Scroll
+Wand
+Book
+Jewel
+Cloak or Robe
+Boots
+Gloves
+Girdle
+Helm
+Bags
+Bottle
+Dust
+Stone
+Household Item or Tool
+Musical Instrument
+Weird Item
+Armor
+Shield
+Weapon
+$$
