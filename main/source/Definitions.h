@@ -12,7 +12,7 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-const int IMGDIM=50;
+const int IMGDIM=60;
 const int WIDTH=IMGDIM*5;
 const int HEIGHT=IMGDIM*2;
 bool sdlLoaded=true;
@@ -346,7 +346,7 @@ std::string windowsFixer (std::string input) //removes trailing /r from files
 typedef enum {cm_move, cm_load, cm_oload, cm_mload, cm_save, cm_delete, cm_roll, cm_show, cm_reset, cm_exit, cm_help, cm_previous, cm_sumroll,
 cm_crmove, cm_crload, cm_crdelete, cm_crroll, cm_crshow, cm_crmake, cm_credit,
 cm_editinsert, cm_editmove, cm_editdelete, cm_editreplace,
-cm_uncontested, cm_contested, cm_clash,
+cm_uncontested, cm_contested, cm_clash, cm_dc, cm_vs,
 cm_pix,cm_stoggle,
 cm_total, cm_invalid} cm_input;
 cm_input CMCV(std::string const& input)
@@ -382,6 +382,9 @@ cm_input CMCV(std::string const& input)
     if((input=="cl")||(input=="clash")){output=cm_clash;};
     if((input=="pix")){output=cm_pix;};
     if((input=="stoggle")){output=cm_stoggle;};
+    if((input=="dc")||(input=="cd")){output=cm_dc;};
+    if((input=="vs")){output=cm_vs;};
+
 
     //printf("CMCV OUTPUT: %i\n",output);
     return output;
@@ -522,6 +525,7 @@ std::string dieclass::roll(int times=1, int BoonsBanes=0, int bonus=0, bool crol
     if (croll==false){printf("ROLLING %s %i TIMES...\n\n", uR(getname()).c_str(), times);};
     int i;
     int rng,temprng;
+    rng=0;
     for (i=1;i<=times;i++)
     {
         rng=rand() %getfacenumber() +1;
@@ -880,6 +884,8 @@ public:
     void uncontested(int atk, int modif,int CD);
     void contested(int atk, int amodif, int def, int dmodif);
     void clash(int atk, int abonus, int def, int dbonus);
+    void dc(int bonus, int dc, int boonsbanes);
+    void vs(int atkb, int defb, int bba, int bbb);
 
     void loadlist(); //X
     void loadmaster(std::string filename); //X
@@ -995,7 +1001,7 @@ void dielistclass::append(std::string filename)
     onedie* templist=NULL;
     face* tempface=NULL;
 
-    //printf("filename %s\n",filename.c_str());
+    printf("filename %s\n",filename.c_str());
     myfile.open(filename,ios::in);
     if(!myfile.is_open()){printf("APPEND: Error opening file\n");perror("Error:");return;};
 
@@ -1004,7 +1010,7 @@ void dielistclass::append(std::string filename)
             //printf("\n DIELIST=NULL? %i\n", dielist==NULL);
             if (dielist==NULL)
             {
-                    // build the first element and templist to it
+                     //build the first element and templist to it
                 dicenumber=0; //standard initialization you never know
                 //printf("dielist is empty, creating dielist \n");
                 dielist=(onedie*)malloc(sizeof(onedie));
@@ -1262,6 +1268,7 @@ int dielistclass::rolldie(std::string howmanyfaces, int times=1, int bonus=0, in
     int faces=atoi(howmanyfaces.c_str());
 
     int rng,temprng;
+    rng=0;
     while (times>0)
     {
         rng=rand() %faces +1;
@@ -1445,6 +1452,58 @@ onedie* dielistclass::getdie(int i)
     return tempp;
 };
 
+void dielistclass::dc(int bonus, int dc, int boonsbanes=0)
+{
+    int res[2];
+    res[0]= rand()%10+1+rand()%10+1;
+    res[1]= rand()%10+1+rand()%10+1;
+
+    printf("ROLL %i",res[0]);
+    if(boonsbanes>0){res[0]=max(res[0],res[1]);printf(" (BOON %i)>> %i",res[1],res[0]);};
+    if(boonsbanes<0){res[0]=min(res[0],res[1]);printf(" (BANE %i)>> %i",res[1],res[0]);};
+    printf(" + %i  VS  %i =====>",bonus,dc);
+    res[0]+=bonus;
+    res[0]-=dc;
+    printf(" DoS %i",res[0]);
+    if (res[0]>0){res[0]=div(res[0]-1,3).quot+1;}
+    else if(res[0]<0){res[0]=abs(div(res[0]+1,3).quot)+1;res[0]*=-1;}
+    else {res[0]=1;};
+
+    printf("(%i)\n",res[0]);
+    return;
+};
+
+void dielistclass::vs(int atkb, int defb, int bba, int bbb)
+{
+    int res[4];
+    res[0]= rand()%10+1+rand()%10+1;
+    res[1]= rand()%10+1+rand()%10+1;
+
+    printf("%i",res[0]);
+    if(bba>0){res[0]=max(res[0],res[1]);printf(" (BOON %i)>> %i",res[1],res[0]);};
+    if(bba<0){res[0]=min(res[0],res[1]);printf(" (BANE %i)>> %i",res[1],res[0]);};
+    printf(" + %i  VS",atkb);
+    res[0]+=atkb;
+
+    res[2]= rand()%10+1+rand()%10+1;
+    res[3]= rand()%10+1+rand()%10+1;
+
+    printf("  %i",res[2]);
+    if(bbb>0){res[0]=max(res[2],res[3]);printf(" (BOON %i)>> %i",res[2],res[3]);};
+    if(bbb<0){res[0]=min(res[2],res[3]);printf(" (BANE %i)>> %i",res[2],res[3]);};
+    printf(" + %i",defb);
+    res[2]+=defb;
+
+    res[0]-=res[2];
+
+    printf(" DoS %i",res[0]);
+    if (res[0]>0){res[0]=div(res[0]-1,3).quot+1;}
+    else if(res[0]<0){res[0]=abs(div(res[0]+1,3).quot)+1;res[0]*=-1;}
+    else {res[0]=1;};
+    printf("(%i)\n",res[0]);
+    return;
+};
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////// ROLLERLIST CLASS /////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1453,7 +1512,7 @@ class rollerlistclass: public dielistclass{
 
 public:
     oneroller* rlist(){return dielist;};
-    int getrollernumber(){getdicenumber();};
+    int getrollernumber(){return getdicenumber();};
     void raiserollernumber(){raisedicenumber();};
     oneroller* getroller(int i);
 
@@ -1885,8 +1944,10 @@ void programstate::parser(std::string input)
             printf("9d) (cr)oll X Y: roll custom roller X with seed Y\n");
             printf("9e) u(ncon)tested A MA DC: check best of A d6, adds MA subs DC; result is Degree of Success (also accepts 'uncon')\n");
             printf("9f) (con)tested A MA D MD: check best of A d6 (+MA) vs best of D d6 (+MD); difference is Degree of Success\n");
-            printf("9e) (cl)ash A MA D MD: rolls each of A d6 (+MA) vs each of D d6 (+MD) (unpaired count as 0), giving each Degree of Success\n\n");
-            printf("9f) pix x: generate x random pictures from the res/picture folder");
+            printf("9e) (cl)ash A MA D MD: rolls each of A d6 (+MA) vs each of D d6 (+MD) (unpaired count as 0), giving each Degree of Success\n");
+            printf("9f) pix x: generate x random pictures from the res/picture folder\n");
+            printf("9g) dc X Y [B=0]: Rolls 2d10 +X vs DC Y, with Boon/Bane (+1,-1); gives DoS (in steps of 3)\n");
+            printf("9h) vs X Y [BX=0] [BY=0]: rolls 2d20+X vs 2d20+Y with Boon/Bane (+1,-1); gives DoS (in steps of 3)\n");
 
             printf("10) e(x)it: exit program\n");
             printf("11) (h)elp: show this help message\n");
@@ -1945,7 +2006,7 @@ void programstate::parser(std::string input)
         case cm_crroll:
             savedcommand.assign(input);
             if((myargs.arg1<=0)||(myargs.arg1>myrlist->getrollernumber())){printf("Index out of bounds\n");break;};
-            if(myargs.arg2<0){myargs.arg2=0;};
+            if(myargs.arg2<=0){myargs.arg2=1;};
             //printf("arg1 %i; arg2 %i\n",myargs.arg1,myargs.arg2);
             //printf("entries detected %i\n\n",myrlist->getroller(myargs.arg1)->roller->getentriestotal());
             for(i=1;i<=myrlist->getroller(myargs.arg1)->roller->getentriestotal();i++)
@@ -2086,6 +2147,16 @@ void programstate::parser(std::string input)
                     case cm_stoggle:
                         printf("toggled dice visibility");
                         if(hideflag==true){hideflag=false;}else{hideflag=true;};
+                        break;
+
+                    case cm_dc:
+                        savedcommand.assign(input);
+                        myrlist->dc(myargs.arg1,myargs.arg2,myargs.arg3);
+                        break;
+
+                    case cm_vs:
+                        savedcommand.assign(input);
+                        myrlist->vs(myargs.arg1,myargs.arg2,myargs.arg3,myargs.arg4);
                         break;
 
 
