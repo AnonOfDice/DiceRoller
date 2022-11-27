@@ -1,7 +1,7 @@
 # DiceRoller
 
-LASTE VERSION: 1.2.3 (bugfixes)
-There are still crashes when passing some characters to the parser, but they go beyond intentional usage. This could probably be exploited, but I doubt this shitty dice roller will become famous enough that it will be an issue.
+LASTE VERSION: 1.2.10 (bugfixes)
+Should have fixed all crashes I could find related to parser input.
 
 For usage consult the readme inside. I didn't quite manage to make it format properly in the .md format. I am the big dumdum.
 
