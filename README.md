@@ -1,6 +1,6 @@
 # DiceRoller
 
-LASTE VERSION: 1.2.10 (bugfixes)
+LATEST VERSION: 1.2.10 (bugfixes)
 Should have fixed all crashes I could find related to parser input.
 
 For usage consult the readme inside. I didn't quite manage to make it format properly in the .md format. I am the big dumdum.
