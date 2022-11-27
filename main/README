@@ -60,6 +60,7 @@ for every following lines you have these options
 		>>>: you can correct the dicename while the program is running and try loading it again
 		NOTE: if the line is recognized as a valid roll, it will be shown with special formatting when you type "showdie [custom roller number]"
 		>>>: if it doesn't, it means that the syntax of the roll was wrong; check the help for details
+		>>>: when in doubt, explicitly declare the number of dice you're going to roll
     	-TEXT LINE: type any text you wish to be shown on screen
 		NOTE: it follows printf format: the two characters '\n' will be printed as a newline
     	-end the custom roller with a '$' line, end the file with '$$'
@@ -155,6 +156,10 @@ A: The copy of the program (or the sourcecode, if you'd rather build it yourself
 Q: I want to thank you/curse you in some way!
 Your enjoyment of this program is the only "thank you" I need. If this subpar and messy program has made your RPG experience even a little bit better, that's all I can ask for, really.
 If instead through this software I managed to frustrate or annoy you, please believe it wasn't done on purpose.
+
+Q: DC and VS don't support negative values for attacker/defender stats
+It's a limit of the program (for now). Because of the linearity of d20+Bonus rolls, you can fix it by shifting both values until one of them is zero. 
+For example, "-2 DC 10" has exactly the same odds as "0 DC 12", so type "dc 0 12" as your roll.
 
 5) CREDITS
 
