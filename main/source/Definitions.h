@@ -346,8 +346,9 @@ std::string windowsFixer (std::string input) //removes trailing /r from files
 typedef enum {cm_move, cm_load, cm_oload, cm_mload, cm_save, cm_delete, cm_roll, cm_show, cm_reset, cm_exit, cm_help, cm_previous, cm_sumroll,
 cm_crmove, cm_crload, cm_crdelete, cm_crroll, cm_crshow, cm_crmake, cm_credit,
 cm_editinsert, cm_editmove, cm_editdelete, cm_editreplace,
-cm_uncontested, cm_contested, cm_clash, cm_dc, cm_vs,
+cm_uncontested, cm_contested, cm_clash, cm_dc, cm_vs, cm_gen,
 cm_pix,cm_stoggle,
+cm_doss, cm_step, cm_fromstep, cm_showstep,
 cm_total, cm_invalid} cm_input;
 cm_input CMCV(std::string const& input)
 {
@@ -384,6 +385,13 @@ cm_input CMCV(std::string const& input)
     if((input=="stoggle")){output=cm_stoggle;};
     if((input=="dc")||(input=="cd")){output=cm_dc;};
     if((input=="vs")){output=cm_vs;};
+    if((input=="gen")){output=cm_gen;};
+    if((input=="doss")||(input=="dos")||(input=="delta")){output=cm_doss;};
+    if(input=="step"){output=cm_step;};
+    if((input=="fromstep")||(input=="fstep")||(input=="fs")){output=cm_fromstep;};
+    if((input=="showstep")||(input=="ss")){output=cm_showstep;};
+
+
 
 
     //printf("CMCV OUTPUT: %i\n",output);
@@ -774,6 +782,11 @@ bool rollerclass::isroll(std::string content)
     bool CCArgs=((myarglist.arg1>0)&&(myarglist.arg3>0));
     bool CCcheck=((commCC==true)&&(CCArgs==true));
 
+    //step
+    bool commStep=(myarglist.command.compare("step")==0);
+    bool stepArgs=((myarglist.arg1>=0)&&(myarglist.arg2>=0)&&(myarglist.arg2>=myarglist.arg1));
+    bool stepCheck=((commStep==true)&&(stepArgs==true));
+
     //printf("ISROLL: checking args: '%s' %i %i %i %i '%s'\n",myarglist.command.c_str(),myarglist.arg1,myarglist.arg2,myarglist.arg3,myarglist.arg4,myarglist.args.c_str());
     //printf("commroll:%i, arg1&d:%i\n",commRoll==true, arg1AndDcheck==true);
     //printf("ISROLL: rollcheck:%i, unconcheck:%i, CCcheck:%i\n",rollcheck==true,unconcheck==true, CCcheck==true);
@@ -784,7 +797,7 @@ bool rollerclass::isroll(std::string content)
     //must start with "roll" and have either an args (dx) or an arg1, and an arg2
 
 
-    if ((rollcheck==true)||(unconcheck==true)||(CCcheck==true))
+    if ((rollcheck==true)||(unconcheck==true)||(CCcheck==true)||(stepCheck==true))
     {return true;}
     else
     {return false;};
@@ -886,6 +899,11 @@ public:
     void clash(int atk, int abonus, int def, int dbonus);
     void dc(int bonus, int dc, int boonsbanes);
     void vs(int atkb, int defb, int bba, int bbb);
+    void gen (int x);
+    void doss (int total, int base);
+    void step (int tmin, int tmax, bool showtext);
+    void fromstep (int tgt);
+    void showstep();
 
     void loadlist(); //X
     void loadmaster(std::string filename); //X
@@ -1263,6 +1281,8 @@ int dielistclass::rolldie(std::string howmanyfaces, int times=1, int bonus=0, in
     };
     howmanyfaces.erase(0,1);
     //printf("faces: %s\n",howmanyfaces.c_str());
+    if((int)howmanyfaces.length()<=0)
+    {printf("facenumber missing \n");return -1;};
 
     if(times<0){printf("ROLLDIE: number of rolls out of bounds\n");return -1;};
     int faces=atoi(howmanyfaces.c_str());
@@ -1455,8 +1475,8 @@ onedie* dielistclass::getdie(int i)
 void dielistclass::dc(int bonus, int dc, int boonsbanes=0)
 {
     int res[2];
-    res[0]= rand()%10+1+rand()%10+1;
-    res[1]= rand()%10+1+rand()%10+1;
+    res[0]= rand()%20+1;
+    res[1]= rand()%20+1;
 
     printf("ROLL %i",res[0]);
     if(boonsbanes>0){res[0]=max(res[0],res[1]);printf(" (BOON %i)>> %i",res[1],res[0]);};
@@ -1465,8 +1485,8 @@ void dielistclass::dc(int bonus, int dc, int boonsbanes=0)
     res[0]+=bonus;
     res[0]-=dc;
     printf(" DoS %i",res[0]);
-    if (res[0]>0){res[0]=div(res[0]-1,3).quot+1;}
-    else if(res[0]<0){res[0]=abs(div(res[0]+1,3).quot)+1;res[0]*=-1;}
+    if (res[0]>0){res[0]=div(res[0]-1,4).quot+1;}
+    else if(res[0]<0){res[0]=abs(div(res[0]+1,4).quot)+1;res[0]*=-1;}
     else {res[0]=1;};
 
     printf("(%i)\n",res[0]);
@@ -1476,8 +1496,8 @@ void dielistclass::dc(int bonus, int dc, int boonsbanes=0)
 void dielistclass::vs(int atkb, int defb, int bba, int bbb)
 {
     int res[4];
-    res[0]= rand()%10+1+rand()%10+1;
-    res[1]= rand()%10+1+rand()%10+1;
+    res[0]= rand()%20+1;
+    res[1]= rand()%20+1;
 
     printf("%i",res[0]);
     if(bba>0){res[0]=max(res[0],res[1]);printf(" (BOON %i)>> %i",res[1],res[0]);};
@@ -1485,23 +1505,73 @@ void dielistclass::vs(int atkb, int defb, int bba, int bbb)
     printf(" + %i  VS",atkb);
     res[0]+=atkb;
 
-    res[2]= rand()%10+1+rand()%10+1;
-    res[3]= rand()%10+1+rand()%10+1;
+    res[2]= rand()%20+1;
+    res[3]= rand()%20+1;
 
     printf("  %i",res[2]);
-    if(bbb>0){res[0]=max(res[2],res[3]);printf(" (BOON %i)>> %i",res[2],res[3]);};
-    if(bbb<0){res[0]=min(res[2],res[3]);printf(" (BANE %i)>> %i",res[2],res[3]);};
+    if(bbb>0){res[2]=max(res[2],res[3]);printf(" (BOON %i)>> %i",res[3],res[2]);};
+    if(bbb<0){res[2]=min(res[2],res[3]);printf(" (BANE %i)>> %i",res[3],res[2]);};
     printf(" + %i",defb);
     res[2]+=defb;
 
     res[0]-=res[2];
 
     printf(" DoS %i",res[0]);
-    if (res[0]>0){res[0]=div(res[0]-1,3).quot+1;}
-    else if(res[0]<0){res[0]=abs(div(res[0]+1,3).quot)+1;res[0]*=-1;}
+    if (res[0]>0){res[0]=div(res[0]-1,4).quot+1;}
+    else if(res[0]<0){res[0]=abs(div(res[0]+1,4).quot)+1;res[0]*=-1;}
     else {res[0]=1;};
     printf("(%i)\n",res[0]);
     return;
+};
+
+void dielistclass::gen (int x)
+{
+    int i;
+    i= rand()%10+1 + rand()%6 +1 + x;
+    printf("\nENCOUNTER GENERATOR: %i\n",i);
+    return;
+};
+
+void dielistclass::doss(int total, int base)
+{
+    if ((base<0)||(total<0)){printf("\n ERROR: arguments cannot be negative\n");return;};
+    int i,a;
+    a= total-base;
+    if (a>0)
+    {i= 1+div(a-1,4).quot;}
+    else if (a<0)
+    {i= (-1)*(1+abs(div(a+1,4).quot));}
+    else {i=1;};
+    printf("\n TOTAL DoS: %i\n",i);
+    return;
+};
+
+void dielistclass::step(int tmin, int tmax, bool showtext=true)
+{
+    if(tmax<tmin){cout<<"arg1 must be less than arg2\n";return;};
+    int pointmin= tmin*(tmin+1)/2; // cout<<pointmin<<" ";
+    int pointmax= (tmax*(tmax+1)/2)+tmax; // cout<<pointmax<<" ";
+    if(pointmax==0){cout<<"\nTOTAL ITEM POINTS:0\n"; return;};
+    int output= rand() %(pointmax-pointmin+1) + pointmin;
+    if(showtext==true){printf("\n TOTAL ITEM POINTS: %i\n",output);}
+    else{cout<<output;};
+    return;
+};
+
+void dielistclass::fromstep(int tgt)
+{
+    double output=(1+sqrt(1+(8*tgt)));
+    output=output/2;
+    output=floor(output);
+    output-=1;
+    printf("\n %i POINTS: LEVEL %i\n",tgt,(int)output);
+    return;
+};
+
+void dielistclass::showstep()
+{
+    cout<<"\n0   1   2   3   4   5   6   7   8   9   10\n";
+    cout<<"0   1   3   6   10  15  21  28  36  45  55\n";
 };
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -1946,12 +2016,17 @@ void programstate::parser(std::string input)
             printf("9f) (con)tested A MA D MD: check best of A d6 (+MA) vs best of D d6 (+MD); difference is Degree of Success\n");
             printf("9e) (cl)ash A MA D MD: rolls each of A d6 (+MA) vs each of D d6 (+MD) (unpaired count as 0), giving each Degree of Success\n");
             printf("9f) pix x: generate x random pictures from the res/picture folder\n");
-            printf("9g) dc X Y [B=0]: Rolls 2d10 +X vs DC Y, with Boon/Bane (+1,-1); gives DoS (in steps of 3)\n");
-            printf("9h) vs X Y [BX=0] [BY=0]: rolls 2d20+X vs 2d20+Y with Boon/Bane (+1,-1); gives DoS (in steps of 3)\n");
+            printf("9g) dc X Y [B=0]: Rolls 1d20 +X vs DC Y, with Boon/Bane (+1,-1); gives DoS (in steps of 3)\n");
+            printf("9h) vs X Y [BX=0] [BY=0]: rolls 1d20+X vs 1d20+Y with Boon/Bane (+1,-1); gives DoS (in steps of 3)\n");
+            printf("9i) gen X: rolls d6+d10+x\n");
+            printf("9h) doss/dos/delta X Y: gets the DoS between X and Y\n");
+            printf("9i) step min max: generates a random amount of 'step-buy' points from level min to max\n");
+            printf("9j) fromstep/fstep/fs X: tells you how many levels you can step-buy with X points \n\n");
 
             printf("10) e(x)it: exit program\n");
             printf("11) (h)elp: show this help message\n");
             printf("12) (p)revious, or [enter]: repeat previous roll (9 through 9e)\n");
+            printf("13) showstep or ss: show the step-buy ladder from 0-101n");
             //printf("13) crmake: build a custom roller\n");
             break;
 
@@ -2028,6 +2103,9 @@ void programstate::parser(std::string input)
                     crargs=getargs(seedR(myrlist->getroller(myargs.arg1)->roller->getentry(i),myargs.arg2));
                     switch(CMCV(crargs.command))
                     {
+                        case cm_step:
+                            mylist->step(crargs.arg1,crargs.arg2,false);
+                            break;
                         case cm_sumroll: arg5=true;
                         case cm_roll: //it's either a dX or a dicename (you can't put a number as dicename in custom rolls)
                             //printf("crarggs: command:'%s' 1:%i 2:%i 3:%i 4:%i sum:%i S:'%s'\n",crargs.command.c_str(),crargs.arg1,crargs.arg2,crargs.arg3,crargs.arg4,arg5,crargs.args.c_str());
@@ -2157,6 +2235,31 @@ void programstate::parser(std::string input)
                     case cm_vs:
                         savedcommand.assign(input);
                         myrlist->vs(myargs.arg1,myargs.arg2,myargs.arg3,myargs.arg4);
+                        break;
+
+                    case cm_gen:
+                        savedcommand.assign(input);
+                        mylist->gen(myargs.arg1);
+                        break;
+
+                    case cm_doss:
+                        savedcommand.assign(input);
+                        mylist->doss(myargs.arg1, myargs.arg2);
+                        break;
+
+                    case cm_step:
+                        savedcommand.assign(input);
+                        mylist->step(myargs.arg1,myargs.arg2);
+                        break;
+
+                    case cm_fromstep:
+                        savedcommand.assign(input);
+                        mylist->fromstep(myargs.arg1);
+                        break;
+
+                    case cm_showstep:
+                        savedcommand.assign(input);
+                        mylist->showstep();
                         break;
 
 
